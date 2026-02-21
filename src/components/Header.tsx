@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { ShoppingCart, LogIn, MonitorPlay } from 'lucide-react';
+import { ThemeToggle } from './ThemeToggle';
 
 export default function Header() {
     return (
@@ -19,7 +20,7 @@ export default function Header() {
                 </nav>
 
                 <div className="flex items-center gap-4">
-                    {/* Admin link removed */}
+                    <ThemeToggle />
                 </div>
             </div>
         </header>

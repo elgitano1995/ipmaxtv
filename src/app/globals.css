@@ -3,6 +3,22 @@
 @plugin "tailwindcss-animate";
 
 :root {
+  --background: #ffffff;
+  --foreground: #09090b;
+  --primary: #8b5cf6;
+  --primary-foreground: #ffffff;
+  --secondary: #06b6d4;
+  --secondary-foreground: #ffffff;
+  --card: #ffffff;
+  --card-foreground: #09090b;
+  --border: #e4e4e7;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --accent: #f4f4f5;
+  --accent-foreground: #09090b;
+}
+
+.dark {
   --background: #0f0f0f;
   --foreground: #ededed;
   --primary: #8b5cf6;
@@ -41,4 +57,3 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
-
