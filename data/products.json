@@ -24,5 +24,36 @@
     "isStable": false,
     "metaTitle": "test",
     "metaDescription": "test"
+  },
+  {
+    "id": "61922612-7ba9-4c70-a1d0-c4f480d9d197",
+    "name": "Abonnement Smart X2 : Votre portail exclusif vers les meilleures chaînes mondiales et VOD",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "Découvrez l'excellence de la télévision numérique avec l'abonnement Smart X2, la solution ultime pour un divertissement sans frontières. Accédez à une vaste sélection de chaînes internationales en direct et profitez d'une expérience fluide en haute définition (HD, Full HD et 4K).\n\n",
+    "imageUrl": "https://i.postimg.cc/D0XHxLJD/R-(1).png",
+    "features": [
+      "Stabilité Exceptionnelle : Serveurs performants garantissant une diffusion sans interruption.",
+      "Large Catalogue VOD : Des milliers de films et séries récents mis à jour régulièrement.",
+      "Interface Intuitive : Une navigation fluide et rapide pour toute la famille.",
+      "Multi-plateforme : Compatible avec tous vos appareils Android, Smart TV et boîtiers IPTV.",
+      "Téléchargez l'application IPTV Smart X2 GRATUIT MAINTENANT et profitez du meilleur du streaming !",
+      ""
+    ],
+    "variants": [
+      {
+        "id": "3bf71539-979d-4340-9f28-534824fd5fbf",
+        "duration": "12 Mois",
+        "price": "150dh"
+      },
+      {
+        "id": "22d00037-953b-4f30-aa79-9a1895e24d52",
+        "duration": "",
+        "price": ""
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "Smart X2 IPTV : Meilleur Abonnement TV & VOD 4K Sans Coupure",
+    "metaDescription": "Découvrez Smart X2, l'abonnement IPTV ultime pour accéder à des milliers de chaînes internationales et VOD en 4K. Profitez d'une stabilité exceptionnelle sans coupure sur tous vos appareils. Téléchargez l'application Smart X2 gratuitement et boostez votre divertissement dès maintenant !"
   }
 ]
