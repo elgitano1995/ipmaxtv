@@ -60,33 +60,20 @@ export default function ProductForm({
         }));
     };
 
-    const addFeature = () => {
-        setFormData(prev => ({ ...prev, features: [...(prev.features || []), ''] }));
-    };
-
-    const updateFeature = (index: number, value: string) => {
-        setFormData(prev => {
-            const newF = [...(prev.features || [])];
-            newF[index] = value;
-            return { ...prev, features: newF };
-        });
-    };
-
-    const removeFeature = (index: number) => {
-        setFormData(prev => ({
-            ...prev,
-            features: prev.features?.filter((_, i) => i !== index)
-        }));
-    };
-
     const handleSave = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!formData.name || !formData.categoryId) return alert("Nom et Catégorie requis.");
 
         setIsSaving(true);
-        // Clean up keywords right before saving
+        // Clean up features & keywords right before saving
+        const finalFeatures = (formData.features || []).map(f => f.trim()).filter(f => f !== '');
         const finalKeywords = (formData.keywords || []).map(k => k.trim()).filter(k => k !== '');
-        const productToSave = { ...formData, keywords: finalKeywords } as Product;
+
+        const productToSave = {
+            ...formData,
+            features: finalFeatures,
+            keywords: finalKeywords
+        } as Product;
 
         const res = await addProductStatusAction(productToSave);
         if (res.success) {
@@ -194,16 +181,16 @@ export default function ProductForm({
                     </div>
 
                     <div className="space-y-4 pt-4 border-t border-border">
-                        <h4 className="font-semibold flex justify-between items-center">
-                            Caractéristiques
-                            <button type="button" onClick={addFeature} className="text-primary text-sm flex items-center gap-1 hover:underline"><Plus className="w-3 h-3" /> Ajouter</button>
-                        </h4>
-                        {formData.features?.map((f, i) => (
-                            <div key={i} className="flex gap-2 items-center">
-                                <input value={f} onChange={e => updateFeature(i, e.target.value)} placeholder="VOD 4K incluse..." className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm" />
-                                <button type="button" onClick={() => removeFeature(i)} className="p-2 text-destructive hover:bg-destructive/10 rounded-md"><Trash2 className="w-4 h-4" /></button>
-                            </div>
-                        ))}
+                        <div>
+                            <label className="block text-sm font-medium mb-1">Caractéristiques (séparées par des virgules)</label>
+                            <textarea
+                                value={formData.features?.join(', ') || ''}
+                                onChange={e => setFormData({ ...formData, features: e.target.value.split(',').map(f => f.trimStart()) })}
+                                className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary outline-none"
+                                placeholder="ex: VOD 4K incluse, Anti-Coupure, +20000 Chaînes"
+                                rows={3}
+                            />
+                        </div>
                     </div>
 
                     <div className="space-y-4 pt-4 border-t border-border">
