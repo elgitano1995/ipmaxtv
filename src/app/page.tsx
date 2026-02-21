@@ -1,5 +1,6 @@
 import { getProducts, getCategories } from '@/lib/github-api';
 import ProductCard from '@/components/ProductCard';
+import ReviewsList from '@/components/ReviewsList';
 import { Play } from 'lucide-react';
 import Link from 'next/link';
 
@@ -77,6 +78,9 @@ export default async function Home() {
           )}
         </div>
       </section>
+
+      {/* Reviews Section */}
+      <ReviewsList />
     </div>
   );
 }
