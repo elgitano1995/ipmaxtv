@@ -19,7 +19,7 @@ export default function ProductForm({
 
     // Form State
     const [formData, setFormData] = useState<Partial<Product>>({
-        name: '', categoryId: '', description: '', imageUrl: '', features: [], variants: [],
+        name: '', categoryId: '', description: '', imageUrl: '', features: [], keywords: [], variants: [],
         isBestSeller: false, isStable: false, metaTitle: '', metaDescription: ''
     });
 
@@ -34,7 +34,7 @@ export default function ProductForm({
         setIsCreating(true);
         setFormData({
             id: crypto.randomUUID(), name: '', categoryId: categories[0]?.id || '',
-            description: '', imageUrl: '', features: [], variants: [],
+            description: '', imageUrl: '', features: [], keywords: [], variants: [],
             isBestSeller: false, isStable: false, metaTitle: '', metaDescription: ''
         });
     };
@@ -76,6 +76,25 @@ export default function ProductForm({
         setFormData(prev => ({
             ...prev,
             features: prev.features?.filter((_, i) => i !== index)
+        }));
+    };
+
+    const addKeyword = () => {
+        setFormData(prev => ({ ...prev, keywords: [...(prev.keywords || []), ''] }));
+    };
+
+    const updateKeyword = (index: number, value: string) => {
+        setFormData(prev => {
+            const newK = [...(prev.keywords || [])];
+            newK[index] = value;
+            return { ...prev, keywords: newK };
+        });
+    };
+
+    const removeKeyword = (index: number) => {
+        setFormData(prev => ({
+            ...prev,
+            keywords: prev.keywords?.filter((_, i) => i !== index)
         }));
     };
 
@@ -213,6 +232,23 @@ export default function ProductForm({
                         <div>
                             <label className="block text-sm font-medium mb-1">Méta Description</label>
                             <textarea value={formData.metaDescription || ''} onChange={e => setFormData({ ...formData, metaDescription: e.target.value })} className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm" rows={2} />
+                        </div>
+                        <div className="pt-2">
+                            <label className="text-sm font-medium flex justify-between items-center mb-2">
+                                Mots-clés SEO
+                                <button type="button" onClick={addKeyword} className="text-primary text-xs flex items-center gap-1 hover:underline"><Plus className="w-3 h-3" /> Ajouter</button>
+                            </label>
+                            <div className="space-y-2">
+                                {formData.keywords?.map((k, i) => (
+                                    <div key={i} className="flex gap-2 items-center">
+                                        <input value={k} onChange={e => updateKeyword(i, e.target.value)} placeholder="ex: serveur iptv 4k" className="w-full bg-card border border-border rounded-lg px-3 py-1.5 text-sm" />
+                                        <button type="button" onClick={() => removeKeyword(i)} className="p-1.5 text-destructive hover:bg-destructive/10 rounded-md"><Trash2 className="w-4 h-4" /></button>
+                                    </div>
+                                ))}
+                                {(!formData.keywords || formData.keywords.length === 0) && (
+                                    <p className="text-xs text-muted-foreground italic">Aucun mot-clé défini.</p>
+                                )}
+                            </div>
                         </div>
                     </div>
 

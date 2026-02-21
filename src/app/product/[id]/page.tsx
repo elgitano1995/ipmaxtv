@@ -1,11 +1,29 @@
 import { getProducts } from '@/lib/github-api';
 import { notFound } from 'next/navigation';
+import { Metadata } from 'next';
 import ProductPricing from '@/components/ProductPricing';
 import ReviewsList from '@/components/ReviewsList';
 import SchemaMarkup from '@/components/SchemaMarkup';
 import Image from 'next/image';
 import { CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 import { getReviews } from '@/lib/github-api';
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+    const { id } = await params;
+    const products = await getProducts();
+    const product = products.find(p => p.id === id);
+
+    if (!product) {
+        return {
+            title: 'Produit Introuvable | IPMaxTV',
+        };
+    }
+
+    return {
+        title: `${product.metaTitle || product.name} | IPMaxTV`,
+        description: product.metaDescription || product.description,
+        ...(product.keywords && product.keywords.length > 0 && { keywords: product.keywords }),
+    };
+}
 
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;

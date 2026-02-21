@@ -14,6 +14,7 @@ export interface Product {
     isStable?: boolean;
     features: string[];
     variants: ProductVariant[];
+    keywords?: string[];
     metaTitle?: string;
     metaDescription?: string;
 }
