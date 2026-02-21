@@ -14,7 +14,7 @@ export default function ProductCard({ product }: { product: Product }) {
         : 'N/A';
 
     return (
-        <div className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
+        <Link href={`/product/${product.id}`} className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
             {/* Image Header */}
             <div className="relative h-56 w-full bg-muted/30 flex flex-col items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent z-10" />
@@ -59,12 +59,12 @@ export default function ProductCard({ product }: { product: Product }) {
                         <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{startingPrice}</span>
                     </div>
 
-                    <Link href={`/product/${product.id}`} className="bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-1 group/btn">
+                    <div className="bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-1 group/btn">
                         Détails
                         <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                    </Link>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
