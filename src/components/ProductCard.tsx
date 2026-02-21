@@ -14,7 +14,7 @@ export default function ProductCard({ product }: { product: Product }) {
         : 'N/A';
 
     return (
-        <Link href={`/product/${product.id}`} className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
+        <Link href={`/product/${encodeURIComponent(product.name.replace(/\s+/g, '_'))}`} className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
             {/* Image Header */}
             <div className="relative h-56 w-full bg-muted/30 flex flex-col items-center justify-center overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent z-10" />

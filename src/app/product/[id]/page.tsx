@@ -9,8 +9,9 @@ import { CheckCircle2, ShieldCheck, Zap } from 'lucide-react';
 import { getReviews } from '@/lib/github-api';
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
     const { id } = await params;
+    const decodedId = decodeURIComponent(id);
     const products = await getProducts();
-    const product = products.find(p => p.id === id);
+    const product = products.find(p => p.id === id || p.name.replace(/\s+/g, '_') === decodedId);
 
     if (!product) {
         return {
@@ -27,8 +28,9 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function ProductPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
+    const decodedId = decodeURIComponent(id);
     const products = await getProducts();
-    const product = products.find(p => p.id === id);
+    const product = products.find(p => p.id === id || p.name.replace(/\s+/g, '_') === decodedId);
 
     if (!product) {
         notFound();
