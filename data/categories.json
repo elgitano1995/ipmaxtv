@@ -2,7 +2,7 @@
   {
     "id": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
     "name": "abonement premium",
-    "isVisible": true,
+    "isVisible": false,
     "order": 0
   }
 ]
