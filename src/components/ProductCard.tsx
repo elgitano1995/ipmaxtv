@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { BadgeCheck, Zap, Server } from 'lucide-react';
+import { BadgeCheck, Zap, Server, ChevronRight } from 'lucide-react';
 import { Product } from '@/lib/types';
 
 export default function ProductCard({ product }: { product: Product }) {
@@ -14,21 +14,21 @@ export default function ProductCard({ product }: { product: Product }) {
         : 'N/A';
 
     return (
-        <div className="group flex flex-col bg-card rounded-2xl border border-border overflow-hidden hover:border-primary/50 transition-all hover:shadow-[0_0_30px_-10px_rgba(139,92,246,0.3)]">
+        <div className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
             {/* Image Header */}
-            <div className="relative h-48 w-full bg-muted/50 p-6 flex flex-col items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-card/90 z-10" />
+            <div className="relative h-56 w-full bg-muted/30 flex flex-col items-center justify-center overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent z-10" />
 
                 {/* Badges */}
-                <div className="absolute top-3 left-3 z-20 flex flex-col gap-2">
+                <div className="absolute top-4 left-4 z-20 flex flex-col gap-2">
                     {product.isBestSeller && (
-                        <span className="bg-primary/90 text-primary-foreground text-xs font-bold px-2.5 py-1 rounded-md flex items-center gap-1 shadow-lg">
-                            <Zap className="w-3 h-3 fill-current" /> Best Seller
+                        <span className="bg-primary text-primary-foreground text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md">
+                            <Zap className="w-3.5 h-3.5 fill-current" /> Best Seller
                         </span>
                     )}
                     {product.isStable && (
-                        <span className="bg-secondary/90 text-secondary-foreground text-xs font-bold px-2.5 py-1 rounded-md flex items-center gap-1 shadow-lg">
-                            <BadgeCheck className="w-3 h-3" /> 100% Stable
+                        <span className="bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1.5 shadow-md">
+                            <BadgeCheck className="w-3.5 h-3.5" /> 100% Stable
                         </span>
                     )}
                 </div>
@@ -39,28 +39,29 @@ export default function ProductCard({ product }: { product: Product }) {
                         src={product.imageUrl}
                         alt={product.name}
                         fill
-                        className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-500"
+                        className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-700 ease-out"
                     />
                 ) : (
-                    <Server className="w-20 h-20 text-muted-foreground z-0 opacity-50 group-hover:scale-110 transition-transform duration-500" />
+                    <Server className="w-20 h-20 text-muted-foreground z-0 opacity-40 group-hover:scale-110 transition-transform duration-700 ease-out" />
                 )}
             </div>
 
             {/* Content */}
-            <div className="p-5 flex flex-col flex-1 z-20 bg-card">
-                <h3 className="text-xl font-bold tracking-tight mb-1">{product.name}</h3>
-                <p className="text-muted-foreground text-sm line-clamp-2 mb-4">
+            <div className="p-6 flex flex-col flex-1 z-20 bg-card relative">
+                <h3 className="text-2xl font-black tracking-tight mb-2 text-foreground group-hover:text-primary transition-colors">{product.name}</h3>
+                <p className="text-muted-foreground text-sm line-clamp-2 mb-6 leading-relaxed">
                     {product.description}
                 </p>
 
-                <div className="mt-auto pt-4 border-t border-border flex items-center justify-between">
+                <div className="mt-auto pt-5 border-t border-border flex items-center justify-between">
                     <div className="flex flex-col">
-                        <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">À partir de</span>
-                        <span className="text-lg font-bold text-primary">{startingPrice}</span>
+                        <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider mb-0.5">À partir de</span>
+                        <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{startingPrice}</span>
                     </div>
 
-                    <Link href={`/product/${product.id}`} className="bg-foreground text-background hover:bg-primary hover:text-primary-foreground transition-colors px-4 py-2 rounded-lg font-semibold text-sm">
-                        Voir Détails
+                    <Link href={`/product/${product.id}`} className="bg-primary/10 text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-1 group/btn">
+                        Détails
+                        <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
                     </Link>
                 </div>
             </div>
