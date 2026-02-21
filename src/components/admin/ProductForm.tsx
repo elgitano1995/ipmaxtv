@@ -79,31 +79,14 @@ export default function ProductForm({
         }));
     };
 
-    const addKeyword = () => {
-        setFormData(prev => ({ ...prev, keywords: [...(prev.keywords || []), ''] }));
-    };
-
-    const updateKeyword = (index: number, value: string) => {
-        setFormData(prev => {
-            const newK = [...(prev.keywords || [])];
-            newK[index] = value;
-            return { ...prev, keywords: newK };
-        });
-    };
-
-    const removeKeyword = (index: number) => {
-        setFormData(prev => ({
-            ...prev,
-            keywords: prev.keywords?.filter((_, i) => i !== index)
-        }));
-    };
-
     const handleSave = async (e: React.FormEvent) => {
         e.preventDefault();
         if (!formData.name || !formData.categoryId) return alert("Nom et Catégorie requis.");
 
         setIsSaving(true);
-        const productToSave = formData as Product;
+        // Clean up keywords right before saving
+        const finalKeywords = (formData.keywords || []).map(k => k.trim()).filter(k => k !== '');
+        const productToSave = { ...formData, keywords: finalKeywords } as Product;
 
         const res = await addProductStatusAction(productToSave);
         if (res.success) {
@@ -234,21 +217,13 @@ export default function ProductForm({
                             <textarea value={formData.metaDescription || ''} onChange={e => setFormData({ ...formData, metaDescription: e.target.value })} className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm" rows={2} />
                         </div>
                         <div className="pt-2">
-                            <label className="text-sm font-medium flex justify-between items-center mb-2">
-                                Mots-clés SEO
-                                <button type="button" onClick={addKeyword} className="text-primary text-xs flex items-center gap-1 hover:underline"><Plus className="w-3 h-3" /> Ajouter</button>
-                            </label>
-                            <div className="space-y-2">
-                                {formData.keywords?.map((k, i) => (
-                                    <div key={i} className="flex gap-2 items-center">
-                                        <input value={k} onChange={e => updateKeyword(i, e.target.value)} placeholder="ex: serveur iptv 4k" className="w-full bg-card border border-border rounded-lg px-3 py-1.5 text-sm" />
-                                        <button type="button" onClick={() => removeKeyword(i)} className="p-1.5 text-destructive hover:bg-destructive/10 rounded-md"><Trash2 className="w-4 h-4" /></button>
-                                    </div>
-                                ))}
-                                {(!formData.keywords || formData.keywords.length === 0) && (
-                                    <p className="text-xs text-muted-foreground italic">Aucun mot-clé défini.</p>
-                                )}
-                            </div>
+                            <label className="block text-sm font-medium mb-1">Mots-clés SEO (séparés par des virgules)</label>
+                            <input
+                                value={formData.keywords?.join(', ') || ''}
+                                onChange={e => setFormData({ ...formData, keywords: e.target.value.split(',').map(k => k.trimStart()) })}
+                                className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary outline-none"
+                                placeholder="ex: smartx2, iptv, serveur 4k"
+                            />
                         </div>
                     </div>
 
