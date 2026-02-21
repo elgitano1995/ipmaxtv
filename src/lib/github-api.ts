@@ -4,7 +4,7 @@ import path from 'path';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_REPO = process.env.GITHUB_REPO; // Format: username/repo
-const BRANCH = 'main';
+const BRANCH = process.env.GITHUB_BRANCH || 'v0';
 
 /**
  * Helper to get the raw JSON from GitHub or local fallback if token is missing.
