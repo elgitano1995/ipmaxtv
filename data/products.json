@@ -1,0 +1,28 @@
+[
+  {
+    "id": "ffe47bfd-3e85-4a8c-8982-4b78efc50617",
+    "name": "test",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "test",
+    "imageUrl": "https://i.postimg.cc/7YsPp45n/12-month.jpg",
+    "features": [
+      "test"
+    ],
+    "variants": [
+      {
+        "id": "fd6e0650-6544-458f-bd7b-25985c50b954",
+        "duration": "12 mois",
+        "price": "300 dh"
+      },
+      {
+        "id": "33aaba79-fc25-4b5d-8c9e-65e4e71898a6",
+        "duration": "6 mois",
+        "price": "150 dh"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": false,
+    "metaTitle": "test",
+    "metaDescription": "test"
+  }
+]
