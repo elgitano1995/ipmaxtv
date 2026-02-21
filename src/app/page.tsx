@@ -94,30 +94,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-muted/30 border-t border-border">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-extrabold tracking-tight mb-4">Pourquoi choisir IPMaxTV ?</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Nous nous engageons à fournir le meilleur service de streaming francophone avec une technologie de pointe.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {FEATURES.map((feature, idx) => {
-              const Icon = feature.icon;
-              return (
-                <div key={idx} className="bg-card border border-border rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300 shadow-sm hover:shadow-xl">
-                  <div className={`w-14 h-14 rounded-2xl ${feature.bg} flex items-center justify-center mb-6`}>
-                    <Icon className={`w-7 h-7 ${feature.color}`} />
-                  </div>
-                  <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       {/* Grid Section */}
       <section id="servers" className="py-24 bg-card/50 border-t border-border">
         <div className="container mx-auto px-4">
@@ -158,6 +134,30 @@ export default async function Home() {
               )}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-20 bg-muted/30 border-t border-border">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl font-extrabold tracking-tight mb-4">Pourquoi choisir IPMaxTV ?</h2>
+            <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Nous nous engageons à fournir le meilleur service de streaming francophone avec une technologie de pointe.</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {FEATURES.map((feature, idx) => {
+              const Icon = feature.icon;
+              return (
+                <div key={idx} className="bg-card border border-border rounded-3xl p-8 hover:-translate-y-2 transition-transform duration-300 shadow-sm hover:shadow-xl">
+                  <div className={`w-14 h-14 rounded-2xl ${feature.bg} flex items-center justify-center mb-6`}>
+                    <Icon className={`w-7 h-7 ${feature.color}`} />
+                  </div>
+                  <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{feature.description}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </section>
 
