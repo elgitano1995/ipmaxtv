@@ -29,5 +29,41 @@
     "isStable": true,
     "metaTitle": "Smart X2 IPTV : Meilleur Abonnement TV & VOD 4K Sans Coupure",
     "metaDescription": "Découvrez Smart X2, l'abonnement IPTV ultime pour accéder à des milliers de chaînes internationales et VOD en 4K. Profitez d'une stabilité exceptionnelle sans coupure sur tous vos appareils. Téléchargez l'application Smart X2 gratuitement et boostez votre divertissement dès maintenant !"
+  },
+  {
+    "id": "8816c02f-6d13-435f-975b-9db0e24906d7",
+    "name": "ATLASPRO TV : L'abonnement IPTV Premium 4K ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "ATLASPRO TV est la solution de streaming de référence pour ceux qui recherchent l'excellence et la diversité. Ce service IPTV premium vous offre un accès instantané à une vaste sélection de chaînes internationales en direct et à une bibliothèque de contenus à la demande (VOD) d'une qualité exceptionnelle. Conçu pour la performance, il garantit une expérience fluide, sans latence, sur tous vos écrans.",
+    "imageUrl": "https://i.postimg.cc/90wPTBRq/images-(4).jpg",
+    "features": [
+      "Contenu Illimité : Plus de 6 000 chaînes TV en direct et une bibliothèque VOD riche de milliers de films et séries (Netflix, Disney+, Prime Video, etc.).",
+      "Qualité Haute Définition : Diffusion disponible en 4K, Ultra HD et Full HD pour une immersion totale.",
+      "Stabilité Garantie : Serveurs de haute technologie assurant un streaming fluide, même lors des grands événements sportifs.",
+      "Compatibilité Totale : Fonctionne sur Android TV, Smart TV (Samsung, LG), MAG, PC, Smartphones et tablettes.",
+      "Interface Intuitive : Navigation simplifiée avec guide des programmes (EPG) intégré pour ne rien rater.",
+      "Mises à Jour Régulières : Ajout hebdomadaire de nouveaux contenus et de nouvelles chaînes sans frais supplémentaires."
+    ],
+    "variants": [
+      {
+        "id": "661bb864-3830-4398-89c5-69ad6d1ea2f9",
+        "duration": "12 Mois",
+        "price": "299"
+      },
+      {
+        "id": "0b1267d2-4ecb-4a33-83b8-a2ea177b531b",
+        "duration": "6 Mois",
+        "price": "169"
+      },
+      {
+        "id": "c1eeca3c-b5f4-4283-b97b-6100393860d4",
+        "duration": "3 Mois",
+        "price": "79"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "ATLASPRO TV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
+    "metaDescription": "Profitez de l'expérience ATLASPRO TV Officiel. Accédez à +6000 chaînes mondiales et VOD en 4K sans coupure. Compatible avec tous vos appareils. Abonnez-vous dès maintenant !"
   }
 ]
