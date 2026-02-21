@@ -15,7 +15,10 @@ export default function ProductPricing({ product }: { product: Product }) {
     const handleOrder = () => {
         if (!selectedVariant) return;
 
-        const message = `Bonjour, je voudrais commander le serveur ${product.name} - Durée sélectionnée : ${selectedVariant.duration} au prix de ${selectedVariant.price}.`;
+        // Get the current page URL for the product link
+        const productUrl = typeof window !== 'undefined' ? window.location.href : '';
+
+        const message = `Bonjour, je voudrais commander le serveur ${product.name}\n\nDurée sélectionnée : ${selectedVariant.duration}\nPrix : ${selectedVariant.price}\n\nLien du produit: ${productUrl}`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
 
@@ -70,7 +73,7 @@ export default function ProductPricing({ product }: { product: Product }) {
                 <button
                     onClick={handleOrder}
                     disabled={!selectedVariant}
-                    className="w-full sm:w-auto flex-1 bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-white font-bold py-4 px-8 rounded-full shadow-[0_0_40px_-10px_rgba(16,185,129,0.5)] transition-all hover:-translate-y-1 hover:shadow-[0_0_50px_-10px_rgba(16,185,129,0.7)] flex items-center justify-center gap-3 active:scale-95 disabled:opacity-50 disabled:pointer-events-none"
+                    className="w-full sm:w-auto flex-1 bg-[#00a884] hover:bg-[#008f6f] text-white font-bold py-4 px-8 rounded-full transition-colors flex items-center justify-center gap-3 active:scale-95 disabled:opacity-50 disabled:pointer-events-none text-lg"
                 >
                     <MessageCircle className="w-6 h-6 fill-current" />
                     <span>Commander via WhatsApp</span>
