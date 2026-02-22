@@ -182,13 +182,13 @@ export default function ProductForm({
 
                     <div className="space-y-4 pt-4 border-t border-border">
                         <div>
-                            <label className="block text-sm font-medium mb-1">Caractéristiques (séparées par des virgules)</label>
+                            <label className="block text-sm font-medium mb-1">Caractéristiques (une par ligne)</label>
                             <textarea
-                                value={formData.features?.join(', ') || ''}
-                                onChange={e => setFormData({ ...formData, features: e.target.value.split(',').map(f => f.trimStart()) })}
+                                value={formData.features?.join('\n') || ''}
+                                onChange={e => setFormData({ ...formData, features: e.target.value.split('\n').map(f => f.trim()) })}
                                 className="w-full bg-card border border-border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary outline-none"
-                                placeholder="ex: VOD 4K incluse, Anti-Coupure, +20000 Chaînes"
-                                rows={3}
+                                placeholder={"ex: VOD 4K incluse\nAnti-Coupure\n+20000 Chaînes"}
+                                rows={5}
                             />
                         </div>
                     </div>
