@@ -315,5 +315,48 @@
     "isStable": true,
     "metaTitle": "Abonnement DINO TV Officiel : IPTV Premium 4K & VOD Sans Coupure",
     "metaDescription": "Découvrez DINO TV, l'abonnement IPTV de référence. Accédez à +10 000 chaînes mondiales et VOD en 4K. Serveur stable, zapping rapide et compatibilité totale. Profitez du meilleur prix et d'une activation instantanée !"
+  },
+  {
+    "id": "565de105-5413-49c4-a822-3d9346547d88",
+    "name": "TREX Officiel : Abonnement Premium ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "TREX IPTV s'impose comme l'un des services de streaming les plus fiables et les plus complets du marché. Réputé pour sa stabilité exceptionnelle, il offre un accès instantané à une vaste sélection de chaînes internationales et à une bibliothèque VOD massive en haute définition. Conçu pour répondre aux attentes des utilisateurs les plus exigeants, TREX IPTV garantit une expérience de visionnage fluide, sans latence, idéale pour les amateurs de sport en direct et de cinéma.",
+    "imageUrl": "https://i.postimg.cc/tRxYhqt3/trex.png",
+    "features": [
+      "Stabilité Inégalée : Infrastructure serveur robuste conçue pour éviter les coupures et les mises en mémoire tampon (buffering), même lors des grands événements.",
+      "Qualité d'Image 4K & Ultra HD : Diffusion haute résolution pour une clarté visuelle exceptionnelle sur tous vos programmes.",
+      "Catalogue Immense : Plus de 10 000 chaînes en direct et une bibliothèque VOD de plus de 30 000 films et séries mis à jour régulièrement.",
+      "Compatibilité Étendue : Fonctionne parfaitement sur tous les appareils : Android TV, Smart TV, Firestick, MAG, Smartphones et Tablettes.",
+      "Interface Intuitive : Navigation rapide et simplifiée avec un guide électronique des programmes (EPG) complet.",
+      "Support Client Réactif : Assistance technique disponible pour garantir une installation rapide et une utilisation sans souci."
+    ],
+    "keywords": [
+      "TREX IPTV",
+      "Abonnement TREX",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code TREX IPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "TREX IPTV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "68373769-f1e7-4737-b4c9-4613ae2cab99",
+        "duration": "12 Mois",
+        "price": "349 DH"
+      },
+      {
+        "id": "a5e340f1-670a-4161-985f-946a86f7a252",
+        "duration": "6 Mois",
+        "price": "169 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "TREX IPTV Officiel : Abonnement Premium 4K, Stable & Sans Coupure",
+    "metaDescription": "Découvrez pourquoi TREX IPTV est le meilleur choix. Accédez à +10 000 chaînes mondiales et VOD en 4K avec une stabilité totale. Compatible tous supports. Activation immédiate et support 24/7 !"
   }
 ]
