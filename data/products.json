@@ -125,5 +125,43 @@
     "isStable": true,
     "metaTitle": "Dream TV Officiel : Abonnement IPTV Premium 4K & VOD sans coupure",
     "metaDescription": "Profitez du meilleur du streaming avec Dream TV. Accédez à +7000 chaînes en direct et VOD 4K sur tous vos appareils. Serveur stable, zapping rapide et support 24/7. Abonnez-vous dès maintenant !"
+  },
+  {
+    "id": "0adad292-fc22-44cd-8583-be8f928e9e16",
+    "name": "Abonnement PYTHON",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "PYTHON IPTV est une solution de streaming haut de gamme conçue pour offrir une expérience télévisuelle sans compromis. Grâce à une infrastructure de serveurs puissante et stable, ce service vous permet d'accéder à un catalogue immense de chaînes mondiales et de contenus à la demande (VOD) avec une fluidité exceptionnelle. C’est le choix idéal pour les amateurs de sport, de cinéma et de divertissement qui recherchent la fiabilité et la haute définition.",
+    "imageUrl": "https://i.postimg.cc/s2F11bbj/Python-iptv200.png",
+    "features": [
+      "Stabilité Maximale : Serveurs optimisés pour garantir une diffusion fluide, même lors des pics d'audience comme les grands événements sportifs.",
+      "Qualité d'Image Premium : Support complet des formats 4K, Ultra HD et Full HD pour une clarté visuelle exceptionnelle.",
+      "Catalogue Riche : Accès à plus de 12 000 chaînes internationales et une bibliothèque VOD de plus de 40 000 films et séries.",
+      "Zapping Ultra-Rapide : Changement de chaîne instantané sans temps de chargement fastidieux.",
+      "Multi-Compatibilité : Compatible avec tous les appareils (Android TV, Smart TV, MAG, Firestick, Smartphones et PC).",
+      "Mises à Jour Automatiques : Ajouts réguliers de nouveaux contenus et de nouvelles chaînes pour une expérience toujours actuelle."
+    ],
+    "keywords": [
+      "Python IPTV",
+      "Abonnement Python IPTV",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code Python IPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "Python IPTV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "c829ee9c-e8b8-4900-a8a3-98e45295de4a",
+        "duration": "12 Mois",
+        "price": "199"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": false,
+    "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
+    "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !"
   }
 ]
