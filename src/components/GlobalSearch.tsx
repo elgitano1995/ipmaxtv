@@ -94,7 +94,7 @@ export default function GlobalSearch() {
 
             {/* Dropdown Results */}
             {isOpen && (query.trim().length > 0) && (
-                <div className="absolute top-full left-0 right-0 mt-2 bg-background/80 backdrop-blur-xl border border-border shadow-2xl rounded-2xl overflow-hidden z-[100] animate-in slide-in-from-top-2 fade-in duration-200">
+                <div className="absolute top-full left-0 right-0 mt-2 bg-background/60 backdrop-blur-3xl border border-border shadow-2xl rounded-2xl overflow-hidden z-[100] animate-in slide-in-from-top-2 fade-in duration-200">
                     <div className="max-h-[70vh] overflow-y-auto overscroll-contain">
 
                         {/* Empty State */}
