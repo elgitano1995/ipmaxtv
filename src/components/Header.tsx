@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ShoppingCart, LogIn, MonitorPlay } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
+import GlobalSearch from './GlobalSearch';
 
 export default function Header() {
     return (
@@ -18,6 +19,10 @@ export default function Header() {
                     <Link href="/#servers" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Nos Serveurs</Link>
                     <Link href="/applications" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Applications</Link>
                 </nav>
+
+                <div className="hidden lg:flex items-center flex-1 justify-end px-4">
+                    <GlobalSearch />
+                </div>
 
                 <div className="flex items-center gap-4">
                     <ThemeToggle />
