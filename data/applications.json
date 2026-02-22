@@ -1,297 +1,302 @@
 [
     {
         "id": "1",
-        "name": "SMARTX2",
-        "code": "262591"
+        "name": "SMART X2",
+        "code": "757991"
     },
     {
         "id": "2",
         "name": "FOSTO",
-        "code": "994975"
+        "code": "2414973"
     },
     {
         "id": "3",
-        "name": "NEOX2",
-        "code": "39113"
+        "name": "NEO X2",
+        "code": "8012941"
     },
     {
         "id": "4",
-        "name": "SUPTV CODE",
-        "code": "74523"
+        "name": "SUP TV CODE",
+        "code": "7992931"
     },
     {
         "id": "5",
-        "name": "NET IPTV PLUS",
-        "code": "28698"
+        "name": "NET CODE/USER",
+        "code": "459805"
     },
     {
         "id": "6",
-        "name": "SUPTV PRO MAC",
-        "code": "176442"
+        "name": "SUP USER/PASS",
+        "code": "713240"
     },
     {
         "id": "7",
-        "name": "TS4K PRO V3",
-        "code": "10606"
+        "name": "TS4K PRO OLD V",
+        "code": "2313208"
     },
     {
         "id": "8",
         "name": "IBO PLAYER",
-        "code": "10009"
+        "code": "1171959"
     },
     {
         "id": "9",
         "name": "BOB PLAYER",
-        "code": "113279"
+        "code": "815778"
     },
     {
         "id": "10",
-        "name": "BOSS PLAYER",
-        "code": "10420"
+        "name": "IBOSS PLAYER",
+        "code": "967528"
     },
     {
         "id": "11",
         "name": "IBOX PLAYER",
-        "code": "14920"
+        "code": "7947185"
     },
     {
         "id": "12",
         "name": "ATLAS PRO V4",
-        "code": "72224"
+        "code": "783474"
     },
     {
         "id": "13",
         "name": "ATLAS PRO V3",
-        "code": "809071"
+        "code": "783474"
     },
     {
         "id": "14",
         "name": "DREAM 4K CODE",
-        "code": "104195"
+        "code": "5249980"
     },
     {
         "id": "15",
-        "name": "DREAM 4K MAC",
-        "code": "370470"
+        "name": "Dream4K_user_pass",
+        "code": "3704716"
     },
     {
         "id": "16",
         "name": "SANSAT V4",
-        "code": "475875"
+        "code": "4788782"
     },
     {
         "id": "17",
-        "name": "SANSAT V3",
-        "code": "101351"
+        "name": "SANSAT TV",
+        "code": "5510117"
     },
     {
         "id": "18",
-        "name": "SANSAT MAC",
-        "code": "609252"
+        "name": "SANSAT MAG",
+        "code": "6082758"
     },
     {
         "id": "19",
         "name": "DINO SMARTERS",
-        "code": "55494"
+        "code": "354990"
     },
     {
         "id": "20",
         "name": "HOT PLAYER",
-        "code": "55500"
+        "code": "395800"
     },
     {
         "id": "21",
         "name": "IBO PRO",
-        "code": "63823"
+        "code": "481220"
     },
     {
         "id": "22",
         "name": "SMARTERS PLAYER",
-        "code": "28135"
+        "code": "2471897"
     },
     {
         "id": "23",
-        "name": "8K MAX 4G",
-        "code": "11666"
+        "name": "STRANG XC",
+        "code": "5811661"
     },
     {
         "id": "24",
-        "name": "8K MAX 5G",
-        "code": "56555"
+        "name": "STRANG 8K",
+        "code": "948558"
     },
     {
         "id": "25",
-        "name": "DREAM TV PRO",
-        "code": "484307"
+        "name": "DREAM TV IBO",
+        "code": "6842409"
     },
     {
         "id": "26",
-        "name": "DREAM TV MAX",
-        "code": "810220"
+        "name": "DREAM TV SAGA",
+        "code": "5982230"
     },
     {
         "id": "27",
         "name": "DREAM TV CODE",
-        "code": "26744"
+        "code": "757986"
     },
     {
         "id": "28",
         "name": "ELK PLAYER",
-        "code": "90566"
+        "code": "597069"
     },
     {
         "id": "29",
-        "name": "SMART ONE",
-        "code": "44214"
+        "name": "SMARTONE",
+        "code": "447116"
     },
     {
         "id": "30",
-        "name": "PLUME V3",
-        "code": "64295"
+        "name": "PLUME FLIX",
+        "code": "479426"
     },
     {
         "id": "31",
-        "name": "PLUME V4",
-        "code": "43290"
+        "name": "PLUME 4K",
+        "code": "382985"
     },
     {
         "id": "32",
         "name": "KING IPTV PRO",
-        "code": "70928"
+        "code": "1011205"
     },
     {
         "id": "33",
-        "name": "KING PLATINUM",
-        "code": "65906"
+        "name": "KING PLUTINUM",
+        "code": "6899363"
     },
     {
         "id": "34",
         "name": "KING PRO CODE",
-        "code": "10425"
+        "code": "4343161"
     },
     {
         "id": "35",
         "name": "STZ PLAYER",
-        "code": "10565"
+        "code": "527403"
     },
     {
         "id": "36",
         "name": "GOLDEN OTT",
-        "code": "90812"
+        "code": "901815"
     },
     {
         "id": "37",
-        "name": "PRO MAX SMARTERS",
-        "code": "15591"
+        "name": "PROMAX USER/PASS",
+        "code": "921397"
     },
     {
         "id": "38",
-        "name": "TREX VIP MAX",
-        "code": "82200"
+        "name": "PROMAX SMARTERS",
+        "code": "869196"
     },
     {
         "id": "39",
-        "name": "TREX VIP CODE",
-        "code": "20700"
+        "name": "TREX USER/PASS",
+        "code": "1857800"
     },
     {
         "id": "40",
-        "name": "TREX PRO MAX",
-        "code": "66054"
+        "name": "TREX ACTIF CODE",
+        "code": "2073639"
     },
     {
         "id": "41",
-        "name": "TREX 4K PRESTIGE",
-        "code": "68900"
+        "name": "TREX IBO PRO",
+        "code": "496164"
     },
     {
         "id": "42",
-        "name": "DH PLUS",
-        "code": "13155"
+        "name": "TREX V FIRESTICK",
+        "code": "6343232"
     },
     {
         "id": "43",
-        "name": "EAGLE PRO",
-        "code": "43801"
+        "name": "DH PLUS",
+        "code": "701692"
     },
     {
         "id": "44",
-        "name": "EAGLE CODE",
-        "code": "27044"
+        "name": "EAGLE IBO",
+        "code": "4212811"
     },
     {
         "id": "45",
-        "name": "EAGLE 4K CODE",
-        "code": "71842"
+        "name": "EAGLE CODE",
+        "code": "279380"
     },
     {
         "id": "46",
-        "name": "EAGLE 4K SMARTERS",
-        "code": "61002"
+        "name": "EAGLE 4K CODE",
+        "code": "7955742"
     },
     {
         "id": "47",
-        "name": "CRYSTAL OTT 4K",
-        "code": "68666"
+        "name": "EAGLE 4K SMARTERS",
+        "code": "6338530"
     },
     {
         "id": "48",
-        "name": "CRYSTAL CODE",
-        "code": "50799"
+        "name": "CRYSTAL OTT V4",
+        "code": "586567"
     },
     {
         "id": "49",
-        "name": "CRYSTAL PRESTIGE",
-        "code": "62554"
+        "name": "CRYSTAL CODE",
+        "code": "807996"
     },
     {
         "id": "50",
-        "name": "ARC PLAYER",
-        "code": "90909"
+        "name": "CRYSTAL FIRESTICK",
+        "code": "601344"
     },
     {
         "id": "51",
-        "name": "VU PLAYER",
-        "code": "32251"
+        "name": "ARC PLAYER",
+        "code": "991098"
     },
     {
         "id": "52",
-        "name": "IRON",
-        "code": "87004"
+        "name": "VU PLAYER",
+        "code": "327187"
     },
     {
         "id": "53",
-        "name": "LION OTT",
-        "code": "30025"
+        "name": "IRON",
+        "code": "27562"
     },
     {
         "id": "54",
-        "name": "LUXE IPTV",
-        "code": "10000"
+        "name": "LION OTT",
+        "code": "740212"
     },
     {
         "id": "55",
-        "name": "BAY TV",
-        "code": "80000"
+        "name": "LUXE IPTV",
+        "code": "5942039"
     },
     {
         "id": "56",
-        "name": "DIMA LIVE",
-        "code": "50000"
+        "name": "BAY TV",
+        "code": "8699091"
     },
     {
         "id": "57",
-        "name": "PLUME VIP",
-        "code": "40000"
+        "name": "DIMA LIVE",
+        "code": "850517"
     },
     {
         "id": "58",
-        "name": "SMART TV APP",
-        "code": "30000"
+        "name": "PLUME 8K",
+        "code": "8746525"
     },
     {
         "id": "59",
-        "name": "CRT",
-        "code": "20000"
+        "name": "SHAMEL TV",
+        "code": "246523"
+    },
+    {
+        "id": "60",
+        "name": "CR 7",
+        "code": "1242013"
     }
 ]
