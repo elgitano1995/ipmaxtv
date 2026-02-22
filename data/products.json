@@ -189,5 +189,43 @@
     "isStable": false,
     "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
     "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !"
+  },
+  {
+    "id": "2007a7bf-9d77-4a39-b6e5-3474ee98d58a",
+    "name": "Dream 4K Officiel : Abonnement Premium",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "Dream 4K est l'un des services IPTV les plus performants du marché, offrant une expérience de divertissement inégalée. Grâce à une infrastructure serveur robuste, il propose un accès fluide à une multitude de chaînes mondiales et une bibliothèque VOD exhaustive. Conçu spécifiquement pour les amateurs de haute définition, Dream 4K garantit une qualité d'image cristalline et une stabilité exemplaire pour tous vos programmes préférés.",
+    "imageUrl": "https://i.postimg.cc/x1PTTqGZ/dream4k-v2-2-2-smarters-screenshot.avif",
+    "features": [
+      "Qualité d'Image Exceptionnelle : Supporte la diffusion en 4K, Ultra HD et Full HD pour une clarté visuelle optimale.",
+      "Vaste Sélection de Chaînes : Accès à des milliers de chaînes internationales en direct (Sport, Cinéma, Divertissement, News).",
+      "Bibliothèque VOD Massive : Des milliers de films et séries récents mis à jour régulièrement pour ne jamais manquer de nouveautés.",
+      "Serveurs Hautes Performances : Technologie anti-buffering assurant une stabilité maximale, même lors des grands événements en direct.",
+      "Compatibilité Étendue : Fonctionne sur tous les supports (Smart TV, Android Box, Firestick, Smartphones, Tablettes et Mag).",
+      "Guide des Programmes (EPG) : Interface conviviale avec guide complet pour consulter les horaires de vos émissions."
+    ],
+    "keywords": [
+      "Dream 4K",
+      "Abonnement Dream 4K",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code Dream 4K",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "Dream 4K Officiel"
+    ],
+    "variants": [
+      {
+        "id": "e7916bee-9688-4c52-8005-727a05ee9159",
+        "duration": "12 Mois ",
+        "price": "229"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "Dream 4K Officiel : Abonnement Premium Stable & VOD 4K",
+    "metaDescription": "Découvrez Dream 4K, l'abonnement IPTV leader pour vos chaînes et VOD en Ultra HD. Profitez d'une stabilité totale sans coupure sur tous vos appareils. Livraison instantanée et support 24/7. Abonnez-vous maintenant !"
   }
 ]
