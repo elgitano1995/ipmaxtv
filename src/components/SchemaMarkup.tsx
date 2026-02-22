@@ -7,8 +7,9 @@ export default function SchemaMarkup({
     product: Product;
     reviews?: Review[];
 }) {
-    const lowestPrice = product.variants?.length > 0
-        ? Math.min(...product.variants.map(v => parseFloat(v.price.replace(/[^0-9.]/g, ''))))
+    const validVariants = product.variants?.filter(v => v.price && v.duration) || [];
+    const lowestPrice = validVariants.length > 0
+        ? Math.min(...validVariants.map(v => parseFloat(v.price.replace(/[^0-9.]/g, ''))))
         : 0;
 
     let aggregateRating = undefined;
@@ -28,10 +29,15 @@ export default function SchemaMarkup({
         "name": product.name,
         "image": product.imageUrl,
         "description": product.description,
+        "sku": product.id,
+        "brand": {
+            "@type": "Brand",
+            "name": "IPMaxTV"
+        },
         "offers": {
             "@type": "AggregateOffer",
-            "lowPrice": lowestPrice,
-            "priceCurrency": "EUR"
+            "lowPrice": lowestPrice || 0,
+            "priceCurrency": "MAD"
         },
         ...(aggregateRating && { aggregateRating })
     };
