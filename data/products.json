@@ -255,7 +255,23 @@
       "IPTV sans coupure",
       "Smart TV IPTV"
     ],
-    "variants": [],
+    "variants": [
+      {
+        "id": "e9e1b664-e7e1-453e-8dff-af1eeb231175",
+        "duration": "12 Mois ",
+        "price": "189 DH"
+      },
+      {
+        "id": "3032cefb-fb5b-41b4-8c14-282a76c7ce95",
+        "duration": "6 Mois",
+        "price": "99 DH"
+      },
+      {
+        "id": "6e31bf5a-6981-4b54-a1b5-43fbd3374ccb",
+        "duration": "3 Mois",
+        "price": "75 DH"
+      }
+    ],
     "isBestSeller": false,
     "isStable": true,
     "metaTitle": "Win Player IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
