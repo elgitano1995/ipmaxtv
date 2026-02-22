@@ -77,5 +77,59 @@
       "IPTV Android TV",
       "Atlas Pro TV Gratuit."
     ]
+  },
+  {
+    "id": "1c5fd0db-c2d3-4569-85a9-250134f1c3c2",
+    "name": "DREAM TV All in One",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "Voici une présentation optimisée pour le produit Dream TV, conçue pour capter l'attention de vos clients et améliorer votre référencement sur Google.\n\nDescription Simple\nDream TV est l'abonnement IPTV de référence pour ceux qui exigent une qualité d'image exceptionnelle et une stabilité sans faille. Accédez instantanément à un univers de divertissement complet regroupant les meilleures chaînes mondiales et une bibliothèque VOD massive. Que ce soit pour le sport en direct, les grands films ou vos séries préférées, Dream TV transforme votre écran en un véritable cinéma privé.",
+    "imageUrl": "https://i.postimg.cc/FzsGbVx1/dreamtv.webp",
+    "features": [
+      "Qualité Ultra HD & 4K : Une netteté d'image incomparable pour une immersion totale dans vos programmes.",
+      "Large Bouquet de Chaînes : Accès à plus de 7 000 chaînes internationales (Sport",
+      "Cinéma",
+      "Documentaires",
+      "Enfants).",
+      "VOD Illimitée : Une bibliothèque mise à jour quotidiennement avec les derniers films et séries des grandes plateformes.",
+      "Zapping Ultra Rapide : Technologie de serveur avancée pour un passage d'une chaîne à l'autre en moins d'une seconde.",
+      "Compatibilité Multi-Support : Fonctionne parfaitement sur Smart TV",
+      "Android Box",
+      "Smartphone",
+      "Tablette et PC.",
+      "Replay & EPG : Ne ratez rien grâce au guide des programmes et à la fonction de rattrapage (Replay)."
+    ],
+    "keywords": [
+      "Dream TV",
+      "Abonnement IPTV Dream",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code Dream TV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "Dream TV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "f68d3392-5fb4-4213-ad23-3f6c89684dc8",
+        "duration": "12 Mois",
+        "price": "199"
+      },
+      {
+        "id": "b871c4a6-3150-4883-b2d1-d86480ccc0c4",
+        "duration": "6 Mois",
+        "price": "119"
+      },
+      {
+        "id": "74a64ce3-d18b-4b8f-bce5-5ce0f4bddea7",
+        "duration": "3 Mois",
+        "price": "75"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "Dream TV Officiel : Abonnement IPTV Premium 4K & VOD sans coupure",
+    "metaDescription": "Profitez du meilleur du streaming avec Dream TV. Accédez à +7000 chaînes en direct et VOD 4K sur tous vos appareils. Serveur stable, zapping rapide et support 24/7. Abonnez-vous dès maintenant !"
   }
 ]
