@@ -51,8 +51,10 @@ export async function searchGlobal(query: string): Promise<SearchResult> {
         return app.name.toLowerCase().includes(q) || app.code.includes(q);
     });
 
+    const sortedProducts = filteredProducts.sort((a: any, b: any) => (a.order || 0) - (b.order || 0));
+
     return {
-        products: filteredProducts.slice(0, 10), // Limit results for dropdown performance
+        products: sortedProducts.slice(0, 10), // Limit results for dropdown performance
         applications: filteredApps.slice(0, 10)
     };
 }

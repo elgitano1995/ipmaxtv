@@ -1,9 +1,49 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useId } from 'react';
 import { Product, Category, ProductVariant } from '@/lib/types';
-import { addProductStatusAction, deleteProductAction } from '@/app/actions/admin-actions';
-import { Plus, Trash2, Save, X } from 'lucide-react';
+import { addProductStatusAction, deleteProductAction, reorderProductsAction } from '@/app/actions/admin-actions';
+import { Plus, Trash2, Save, X, GripVertical } from 'lucide-react';
+import {
+    DndContext,
+    closestCenter,
+    KeyboardSensor,
+    PointerSensor,
+    useSensor,
+    useSensors,
+    DragEndEvent
+} from '@dnd-kit/core';
+import {
+    arrayMove,
+    SortableContext,
+    sortableKeyboardCoordinates,
+    verticalListSortingStrategy,
+    useSortable
+} from '@dnd-kit/sortable';
+import { CSS } from '@dnd-kit/utilities';
+
+function SortableProductItem({ product, categoryName, onEdit, onDelete }: { product: Product, categoryName: string, onEdit: (p: Product) => void, onDelete: (id: string) => void }) {
+    const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id: product.id });
+    const style = { transform: CSS.Transform.toString(transform), transition };
+
+    return (
+        <div ref={setNodeRef} style={style} className="flex items-center justify-between p-4 border border-border rounded-xl hover:border-primary/50 transition-colors bg-card relative z-10 group">
+            <div className="flex items-center gap-3">
+                <button type="button" {...attributes} {...listeners} className="cursor-grab text-muted-foreground hover:text-foreground active:cursor-grabbing">
+                    <GripVertical className="w-5 h-5" />
+                </button>
+                <div>
+                    <h4 className="font-bold">{product.name}</h4>
+                    <p className="text-sm text-muted-foreground">{categoryName} • {product.variants?.length || 0} Variantes</p>
+                </div>
+            </div>
+            <div className="flex gap-2">
+                <button type="button" onClick={() => onEdit(product)} className="px-4 py-2 text-sm font-medium bg-muted hover:bg-muted/80 rounded-lg">Modifier</button>
+                <button type="button" onClick={() => onDelete(product.id)} className="p-2 text-destructive hover:bg-destructive/10 rounded-lg"><Trash2 className="w-4 h-4" /></button>
+            </div>
+        </div>
+    );
+}
 
 export default function ProductForm({
     initialProducts,
@@ -12,10 +52,15 @@ export default function ProductForm({
     initialProducts: Product[];
     categories: Category[];
 }) {
-    const [products, setProducts] = useState<Product[]>(initialProducts);
+    const [products, setProducts] = useState<Product[]>([...initialProducts].sort((a, b) => (a.order || 0) - (b.order || 0)));
     const [editingProduct, setEditingProduct] = useState<Product | null>(null);
     const [isCreating, setIsCreating] = useState(false);
     const [isSaving, setIsSaving] = useState(false);
+    const dndId = useId();
+    const sensors = useSensors(
+        useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
+        useSensor(KeyboardSensor, { coordinateGetter: sortableKeyboardCoordinates })
+    );
 
     // Form State
     const [formData, setFormData] = useState<Partial<Product>>({
@@ -91,6 +136,19 @@ export default function ProductForm({
         setIsSaving(false);
     };
 
+    const handleDragEnd = async (event: DragEndEvent) => {
+        const { active, over } = event;
+        if (active.id !== over?.id) {
+            const oldIndex = products.findIndex(p => p.id === active.id);
+            const newIndex = products.findIndex(p => p.id === over?.id);
+
+            const newArr = arrayMove(products, oldIndex, newIndex);
+            const reordered = newArr.map((p, i) => ({ ...p, order: i }));
+            setProducts(reordered);
+            await reorderProductsAction(reordered);
+        }
+    };
+
     const handleDelete = async (id: string) => {
         if (!confirm('Supprimer ce produit ?')) return;
         const res = await deleteProductAction(id);
@@ -111,18 +169,19 @@ export default function ProductForm({
                         </button>
                     </div>
                     <div className="grid grid-cols-1 gap-4">
-                        {products.map(p => (
-                            <div key={p.id} className="flex items-center justify-between p-4 border border-border rounded-xl hover:border-primary/50 transition-colors">
-                                <div>
-                                    <h4 className="font-bold">{p.name}</h4>
-                                    <p className="text-sm text-muted-foreground">{categories.find(c => c.id === p.categoryId)?.name || 'Sans Catégorie'} • {p.variants?.length || 0} Variantes</p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <button onClick={() => handleEdit(p)} className="px-4 py-2 text-sm font-medium bg-muted hover:bg-muted/80 rounded-lg">Modifier</button>
-                                    <button onClick={() => handleDelete(p.id)} className="p-2 text-destructive hover:bg-destructive/10 rounded-lg"><Trash2 className="w-4 h-4" /></button>
-                                </div>
-                            </div>
-                        ))}
+                        <DndContext id={dndId} sensors={sensors} collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
+                            <SortableContext items={products} strategy={verticalListSortingStrategy}>
+                                {products.map(p => (
+                                    <SortableProductItem
+                                        key={p.id}
+                                        product={p}
+                                        categoryName={categories.find(c => c.id === p.categoryId)?.name || 'Sans Catégorie'}
+                                        onEdit={handleEdit}
+                                        onDelete={handleDelete}
+                                    />
+                                ))}
+                            </SortableContext>
+                        </DndContext>
                     </div>
                 </div>
             ) : (

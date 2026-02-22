@@ -62,7 +62,7 @@ export default async function Home() {
 
   // If no data, provide empty states
   const visibleCategories = categories?.filter(c => c.isVisible).sort((a, b) => a.order - b.order) || [];
-  const safeProducts = products || [];
+  const safeProducts = [...(products || [])].sort((a, b) => (a.order || 0) - (b.order || 0));
 
   return (
     <div className="flex flex-col flex-1">

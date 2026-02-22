@@ -1,5 +1,5 @@
 import { getProducts, getCategories, getReviews } from '@/lib/github-api';
-import ProductForm from '@/components/admin/ProductForm';
+import ClientProductWrapper from '@/components/admin/ClientProductWrapper';
 import ClientCategoryWrapper from '@/components/admin/ClientCategoryWrapper';
 import ReviewManager from '@/components/admin/ReviewManager';
 import { Package, FolderTree, Star } from 'lucide-react';
@@ -47,7 +47,7 @@ export default async function AdminPage() {
                     <h2 className="text-lg font-bold">Produits</h2>
                 </div>
                 <div className="p-6">
-                    <ProductForm initialProducts={products || []} categories={categories || []} />
+                    <ClientProductWrapper initialProducts={products || []} categories={categories || []} />
                 </div>
             </div>
         </div>

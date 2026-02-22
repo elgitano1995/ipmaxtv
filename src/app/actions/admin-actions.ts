@@ -44,6 +44,20 @@ export async function deleteProductAction(productId: string) {
     }
 }
 
+export async function reorderProductsAction(products: Product[]) {
+    try {
+        const success = await saveProducts(products);
+        if (!success) {
+            return { success: false, error: 'Failed to save products order.' };
+        }
+
+        // Removed revalidatePath here to prevent the drag-and-drop hot reload loop
+        return { success: true };
+    } catch (error: any) {
+        return { success: false, error: error.message };
+    }
+}
+
 export async function addCategoryAction(category: Category) {
     try {
         const categories = await getCategories();

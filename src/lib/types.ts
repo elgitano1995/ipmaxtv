@@ -17,6 +17,7 @@ export interface Product {
     keywords?: string[];
     metaTitle?: string;
     metaDescription?: string;
+    order?: number;
 }
 
 export interface Category {
