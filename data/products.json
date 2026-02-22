@@ -260,5 +260,44 @@
     "isStable": true,
     "metaTitle": "Win Player IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
     "metaDescription": "Profitez de Win Player (WinPlus), l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. +6000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !"
+  },
+  {
+    "id": "ce047b62-2808-44cf-90cb-94294532acf8",
+    "name": "Abonnement DINO TV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "DINO TV est l'une des solutions IPTV les plus complètes et les plus stables du marché actuel. Conçu pour offrir une expérience de divertissement sans frontières, cet abonnement regroupe le meilleur de la télévision mondiale et du cinéma à la demande. Que vous soyez un grand fan de sport, de documentaires ou des dernières sorties cinématographiques, DINO TV vous garantit une immersion totale avec une fluidité exceptionnelle, même lors des diffusions en direct les plus suivies.",
+    "imageUrl": "https://i.postimg.cc/mkCfh69X/2023-07-07-64a71b9c6b86a.jpg",
+    "features": [
+      "Contenu Massif : Plus de 10 000 chaînes internationales en direct couvrant tous les pays et toutes les thématiques.",
+      "Cinéma à Domicile : Une immense bibliothèque VOD intégrant les derniers films et séries en plusieurs langues.",
+      "Ultra Haute Définition : Support complet des formats 4K, Ultra HD et Full HD pour une qualité d'image époustouflante.",
+      "Technologie Anti-Coupure : Serveurs de pointe équipés de la technologie Anti-Freeze pour une stabilité garantie à 99%.",
+      "Compatibilité Multi-Appareils : Fonctionne sur Smart TV (Samsung, LG), Android Box, Smartphone, Apple TV et Mag.",
+      "Guide des Programmes (EPG) : Interface fluide avec un guide complet pour planifier vos soirées TV en toute simplicité."
+    ],
+    "keywords": [
+      "Dino TV",
+      "Abonnement Dino TV",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code Dino TV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "Dino TV Officiel",
+      "IPTV Maroc"
+    ],
+    "variants": [
+      {
+        "id": "b4c532d1-ac92-4e28-b8d5-61e31a558ddd",
+        "duration": "12 Mois",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "Abonnement DINO TV Officiel : IPTV Premium 4K & VOD Sans Coupure",
+    "metaDescription": "Découvrez DINO TV, l'abonnement IPTV de référence. Accédez à +10 000 chaînes mondiales et VOD en 4K. Serveur stable, zapping rapide et compatibilité totale. Profitez du meilleur prix et d'une activation instantanée !"
   }
 ]
