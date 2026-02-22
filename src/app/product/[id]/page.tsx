@@ -23,6 +23,21 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
         title: `${product.metaTitle || product.name} | IPMaxTV`,
         description: product.metaDescription || product.description,
         ...(product.keywords && product.keywords.length > 0 && { keywords: product.keywords }),
+        alternates: {
+            canonical: `/product/${decodedId}`,
+        },
+        openGraph: {
+            title: product.metaTitle || product.name,
+            description: product.metaDescription || product.description,
+            images: product.imageUrl ? [{ url: product.imageUrl }] : [],
+            type: 'website',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: product.metaTitle || product.name,
+            description: product.metaDescription || product.description,
+            images: product.imageUrl ? [product.imageUrl] : [],
+        }
     };
 }
 

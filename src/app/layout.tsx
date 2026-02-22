@@ -19,8 +19,7 @@ const geistMono = Geist_Mono({
 
 const SEO_TITLE = "IPMaxTV | Le Meilleur de l'IPTV, Sans Coupure en 4K";
 const SEO_DESC = "Découvrez IPMaxTV, le fournisseur IPTV n°1. Plus de 20,000 chaînes, VOD en qualité 4K et FHD, stabilité anti-coupure garantie. Support 24/7 et activation instantanée pour tous vos films et matchs.";
-const SEO_URL = "https://ipmaxtv.vercel.app"; // Defaulting to the local url
-
+const SEO_URL = "https://ipmaxtv.shop";
 export const metadata: Metadata = {
   title: SEO_TITLE,
   description: SEO_DESC,
@@ -29,9 +28,6 @@ export const metadata: Metadata = {
   creator: "IPMaxTV",
   publisher: "IPMaxTV",
   metadataBase: new URL(SEO_URL),
-  alternates: {
-    canonical: '/',
-  },
   openGraph: {
     title: SEO_TITLE,
     description: SEO_DESC,

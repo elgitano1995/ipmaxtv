@@ -54,6 +54,12 @@ const FAQS = [
   }
 ];
 
+export const metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
+
 export default async function Home() {
   const [products, categories] = await Promise.all([
     getProducts(),
