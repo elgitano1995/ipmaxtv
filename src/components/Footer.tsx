@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer className="border-t border-border bg-card mt-20">
             <div className="container mx-auto px-4 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
                         <span className="font-bold text-xl tracking-tight">IPMax<span className="text-primary">TV</span></span>
                         <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
@@ -16,14 +16,6 @@ export default function Footer() {
                             <li><a href="/#servers" className="hover:text-primary transition-colors">Serveurs</a></li>
                             <li><a href="/applications" className="hover:text-primary transition-colors">Applications</a></li>
                             <li><a href="/#reviews" className="hover:text-primary transition-colors">Avis Clients</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 className="font-semibold mb-4">Légal</h3>
-                        <ul className="space-y-2 text-sm text-muted-foreground">
-                            <li><a href="#" className="hover:text-primary transition-colors">Conditions d'utilisation</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Politique de confidentialité</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Remboursements</a></li>
                         </ul>
                     </div>
                     <div>
