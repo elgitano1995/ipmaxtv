@@ -474,5 +474,43 @@
     "isStable": true,
     "metaTitle": "NET TV Officiel : Abonnement IPTV Premium 4K & +30k Chaînes en France",
     "metaDescription": "Découvrez NET TV, le meilleur service IPTV en France avec +30 000 chaînes et 220 000 VOD en 4K. Profitez d'une connexion 10 Gbps stable et sans coupure sur tous vos appareils. Activation instantanée et support 24/7 !"
+  },
+  {
+    "id": "e31914b6-dd32-47e7-8218-37e50a28f34a",
+    "name": "FOSTO TV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "FOSTO TV est une solution de divertissement numérique haut de gamme qui transforme votre écran en un centre multimédia complet. Grâce à une technologie de pointe, cet abonnement offre un accès stable et fluide à une immense variété de contenus mondiaux. Que vous soyez amateur de grands événements sportifs en direct, de cinéma international ou de programmes jeunesse, FOSTO TV propose une expérience utilisateur optimisée, sans latence, pour un plaisir de visionnage inégalé.",
+    "imageUrl": "https://i.postimg.cc/g0tqXLnj/FOSTO-TV.jpg",
+    "features": [
+      "Vaste Catalogue de Chaînes : Accès à des milliers de chaînes internationales en direct couvrant le sport, les actualités et le divertissement.",
+      "Bibliothèque VOD Massive : Des milliers d'heures de films et de séries récentes, régulièrement mis à jour pour suivre les tendances mondiales.",
+      "Qualité d'Image Exceptionnelle : Support des résolutions 4K, Ultra HD et Full HD pour une netteté visuelle parfaite.",
+      "Technologie Anti-Freeze : Serveurs puissants garantissant une stabilité maximale sans mise en mémoire tampon (buffering).",
+      "Compatibilité Multi-Appareils : Fonctionne parfaitement sur Android TV, Smart TV, Firestick, Smartphones et Tablettes.",
+      "Guide des Programmes (EPG) : Interface conviviale permettant de consulter les horaires de vos émissions préférées en un clin d'œil."
+    ],
+    "keywords": [
+      "FOSTO TV",
+      "Abonnement FOSTO TV",
+      "IPTV 4K Stable",
+      "Meilleur IPTV 2026",
+      "Code FOSTO TV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "FOSTO TV Pro"
+    ],
+    "variants": [
+      {
+        "id": "1d0e20ea-56d7-4029-8ebf-a2944e700b6d",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "FOSTO TV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
+    "metaDescription": "Découvrez FOSTO TV, l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. Profitez de milliers de contenus sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !"
   }
 ]
