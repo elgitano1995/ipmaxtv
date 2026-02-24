@@ -425,7 +425,13 @@
       "IPTV sans coupure",
       "Smart TV IPTV"
     ],
-    "variants": [],
+    "variants": [
+      {
+        "id": "4bb501ea-6b12-464e-9244-a7e42854f116",
+        "duration": "12 Mois",
+        "price": "179 DH"
+      }
+    ],
     "isBestSeller": false,
     "isStable": false,
     "metaTitle": "KING PRO IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
