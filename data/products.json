@@ -436,5 +436,43 @@
     "isStable": false,
     "metaTitle": "KING PRO IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
     "metaDescription": "Profitez de KING PRO, l'abonnement IPTV leader pour vos chaînes et VOD en 4K. Accédez à +12 000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous maintenant !"
+  },
+  {
+    "id": "7fb9931c-b1e2-4626-b670-d29869c4d882",
+    "name": "NET TV",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "NET TV est le fournisseur de référence pour une expérience télévisuelle numérique sans frontières en France. En combinant une technologie de serveur européen dédié de haute qualité à une connexion ultra-rapide, ce service permet de s'affranchir des installations par câbles traditionnelles. Profitez d'un accès instantané à un catalogue massif de chaînes en direct et de contenus à la demande (VOD), garantissant une immersion totale et un streaming fluide, idéal pour les passionnés de cinéma et les fans de sport exclusif.",
+    "imageUrl": "https://i.postimg.cc/8kKHxWZz/NET-TV.webp",
+    "features": [
+      "Vaste Catalogue : Plus de 30 000 chaînes de télévision internationales et plus de 220 000 contenus VOD (films et séries).",
+      "Vitesse de Connexion Exceptionnelle : Serveurs européens dédiés avec une bande passante de 10 Gbps, permettant une ouverture des chaînes en moins de 0,5 seconde.",
+      "Haute Qualité d'Image : Diffusion disponible en qualité Full HD et 4K pour une clarté visuelle optimale.",
+      "Installation Instantanée : Configuration simplifiée et rapide sur l'appareil de votre choix.",
+      "Compatibilité Multi-Support : Optimisé pour Smart TV, Boîtiers Android, Smartphones, Tablettes et ordinateurs.",
+      "Stabilité Garantie : Un taux de disponibilité (uptime) de 98% pour un streaming sans coupures."
+    ],
+    "keywords": [
+      "NET TV",
+      "NETIPTV",
+      "Abonnement NET TV",
+      "IPTV France Premium",
+      "IPTV 4K Stable",
+      "Code NETIPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV"
+    ],
+    "variants": [
+      {
+        "id": "49e32742-437e-4870-90f3-27e5d49bfd8c",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "NET TV Officiel : Abonnement IPTV Premium 4K & +30k Chaînes en France",
+    "metaDescription": "Découvrez NET TV, le meilleur service IPTV en France avec +30 000 chaînes et 220 000 VOD en 4K. Profitez d'une connexion 10 Gbps stable et sans coupure sur tous vos appareils. Activation instantanée et support 24/7 !"
   }
 ]
