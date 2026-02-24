@@ -358,5 +358,45 @@
     "isStable": true,
     "metaTitle": "TREX IPTV Officiel : Abonnement Premium 4K, Stable & Sans Coupure",
     "metaDescription": "Découvrez pourquoi TREX IPTV est le meilleur choix. Accédez à +10 000 chaînes mondiales et VOD en 4K avec une stabilité totale. Compatible tous supports. Activation immédiate et support 24/7 !"
+  },
+  {
+    "id": "84777f7e-9885-425f-aee4-ea1155eb0385",
+    "name": "Abonnement EAGLE TV",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "EAGLE TV est une plateforme de divertissement premium conçue pour offrir une expérience de streaming ultime en haute définition. Grâce à une infrastructure robuste garantissant un temps de disponibilité de 99,9 %, ce service transforme votre façon de regarder la télévision en éliminant les interruptions et le buffering. Que vous soyez un fan inconditionnel de sport, un passionné de cinéma ou à la recherche de programmes pour enfants, EAGLE TV propose une solution tout-en-un regroupant les meilleures chaînes mondiales et les plateformes de streaming les plus populaires.",
+    "imageUrl": "https://i.postimg.cc/sfp7yWjk/eagle-tv.png",
+    "features": [
+      "Contenu Monumental : Accès à plus de 30 000 chaînes en direct et une immense bibliothèque de 120 000 titres VOD (films et séries).",
+      "Qualité Ultra-HD : Support complet des résolutions 4K et 8K pour une clarté visuelle exceptionnelle.",
+      "Stabilité Maximale : Technologie anti-buffering et uptime de 99,9 % pour une diffusion fluide sans coupure.",
+      "Fonctionnalités Avancées : Guide électronique des programmes (EPG) et fonction Catch-Up pour rattraper vos émissions manquées.",
+      "Compatibilité Totale : Fonctionne sur tous les appareils (Smart TV, Android Box, Firestick, MAG, Smartphones, iOS et PC).",
+      "Sports en Direct : Couverture complète des grands événements (BeIN Sports, ESPN, Sky Sports, etc.) et événements Pay-Per-View (PPV).",
+      "Sans Restriction Géo : Utilisable partout dans le monde avec une activation instantanée."
+    ],
+    "keywords": [
+      "EAGLE TV",
+      "EAGLE IPTV",
+      "Abonnement EAGLE TV",
+      "IPTV 4K 8K",
+      "Meilleur IPTV Stable",
+      "Code EAGLE IPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "EAGLE IPTV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "a27d748d-b45a-4b25-881d-dd17ecede1fc",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": false,
+    "metaTitle": "EAGLE TV Officiel : Abonnement IPTV Premium 4K/8K & 30k Chaînes",
+    "metaDescription": "Découvrez EAGLE TV, l'expérience IPTV ultime avec +30 000 chaînes et 120 000 VOD en 4K/8K. Profitez d'une stabilité de 99,9 % sans buffering sur tous vos appareils. Activation rapide et support 24/7. Abonnez-vous maintenant !"
   }
 ]
