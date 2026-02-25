@@ -8,9 +8,9 @@ export default function SchemaMarkup({
     reviews?: Review[];
 }) {
     const validVariants = product.variants?.filter(v => v.price && v.duration) || [];
-    const lowestPrice = validVariants.length > 0
-        ? Math.min(...validVariants.map(v => parseFloat(v.price.replace(/[^0-9.]/g, ''))))
-        : 0;
+    const prices = validVariants.map(v => parseFloat(v.price.replace(/[^0-9.]/g, '')));
+    const lowestPrice = prices.length > 0 ? Math.min(...prices) : 0;
+    const highestPrice = prices.length > 0 ? Math.max(...prices) : 0;
 
     let aggregateRating = undefined;
 
@@ -37,6 +37,8 @@ export default function SchemaMarkup({
         "offers": {
             "@type": "AggregateOffer",
             "lowPrice": lowestPrice || 0,
+            "highPrice": highestPrice || 0,
+            "offerCount": validVariants.length || 1,
             "priceCurrency": "MAD"
         },
         ...(aggregateRating && { aggregateRating })
