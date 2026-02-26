@@ -33,17 +33,19 @@ export default function ProductCard({ product }: { product: Product }) {
                     )}
                 </div>
 
-                {/* Server Icon/Image (Fallback if no imageUrl) */}
-                {product.imageUrl ? (
-                    <Image
-                        src={product.imageUrl}
-                        alt={product.name}
-                        fill
-                        className="object-cover opacity-90 group-hover:scale-105 transition-transform duration-700 ease-out"
-                    />
-                ) : (
-                    <Server className="w-20 h-20 text-muted-foreground z-0 opacity-40 group-hover:scale-110 transition-transform duration-700 ease-out" />
-                )}
+                <div className="relative aspect-[4/3] w-full bg-muted flex items-center justify-center p-6">
+                    {product.imageUrl ? (
+                        <Image
+                            src={product.imageUrl}
+                            alt={`Abonnement IPTV ${product.name} 4k FHD Sans Coupure au Maroc et en France`}
+                            width={400}
+                            height={300}
+                            className="w-full h-full object-contain filter drop-shadow-lg transition-transform duration-500 group-hover:scale-110"
+                        />
+                    ) : (
+                        <Server className="w-20 h-20 text-muted-foreground z-0 opacity-40 group-hover:scale-110 transition-transform duration-700 ease-out" />
+                    )}
+                </div>
             </div>
 
             {/* Content */}
