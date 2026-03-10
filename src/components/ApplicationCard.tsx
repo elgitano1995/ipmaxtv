@@ -1,5 +1,6 @@
 import { MonitorPlay } from 'lucide-react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface Application {
     id: string;
@@ -9,8 +10,10 @@ interface Application {
 }
 
 export default function ApplicationCard({ app }: { app: Application }) {
+    const slug = encodeURIComponent(app.name.toLowerCase().replace(/\s+/g, '-'));
+
     return (
-        <div className="flex flex-col items-center justify-start p-3 group cursor-pointer">
+        <Link href={`/applications/${slug}`} className="flex flex-col items-center justify-start p-3 group cursor-pointer">
             {/* Circular Logo Interface mimicking the screenshot */}
             <div className="relative w-28 h-28 md:w-36 md:h-36 rounded-full bg-card border-[3.5px] border-[#0ea5e9]/70 group-hover:border-primary transition-all duration-500 shadow-md group-hover:shadow-primary/30 group-hover:shadow-2xl flex flex-col items-center justify-center overflow-hidden mb-3">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-muted/20" />
@@ -39,6 +42,6 @@ export default function ApplicationCard({ app }: { app: Application }) {
                     ({app.code})
                 </span>
             </div>
-        </div>
+        </Link>
     );
 }
