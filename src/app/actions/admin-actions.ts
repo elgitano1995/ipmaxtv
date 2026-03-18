@@ -1,8 +1,8 @@
 'use server';
 
 import { revalidatePath } from 'next/cache';
-import { Product, Category, Review } from '@/lib/types';
-import { getProducts, getCategories, getReviews, saveProducts, saveCategories, saveReviews } from '@/lib/github-api';
+import { Product, Category, Review, Article } from '@/lib/types';
+import { getProducts, getCategories, getReviews, saveProducts, saveCategories, saveReviews, getArticles, saveArticles } from '@/lib/github-api';
 
 export async function addProductStatusAction(product: Product) {
     try {
@@ -126,6 +126,46 @@ export async function deleteReviewAction(reviewId: string) {
         const success = await saveReviews(newReviews);
         if (!success) {
             return { success: false, error: 'Failed to delete review.' };
+        }
+
+        revalidatePath('/', 'layout');
+        return { success: true };
+    } catch (error: any) {
+        return { success: false, error: error.message };
+    }
+}
+
+export async function addArticleAction(article: Article) {
+    try {
+        const articles = await getArticles();
+        const existingIndex = articles.findIndex((a) => a.id === article.id);
+
+        if (existingIndex >= 0) {
+            articles[existingIndex] = article;
+        } else {
+            articles.push(article);
+        }
+
+        const success = await saveArticles(articles);
+        if (!success) {
+            return { success: false, error: 'Failed to save article.' };
+        }
+
+        revalidatePath('/', 'layout');
+        return { success: true };
+    } catch (error: any) {
+        return { success: false, error: error.message };
+    }
+}
+
+export async function deleteArticleAction(articleId: string) {
+    try {
+        const articles = await getArticles();
+        const newArticles = articles.filter((a) => a.id !== articleId);
+
+        const success = await saveArticles(newArticles);
+        if (!success) {
+            return { success: false, error: 'Failed to delete article.' };
         }
 
         revalidatePath('/', 'layout');
