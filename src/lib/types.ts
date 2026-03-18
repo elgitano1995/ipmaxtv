@@ -34,3 +34,15 @@ export interface Review {
     comment: string;
     date: string;
 }
+
+export interface Article {
+    id: string;
+    slug: string;
+    title: string;
+    excerpt: string;
+    content: string;
+    coverImage: string;
+    date: string;
+    author: string;
+    keywords?: string[];
+}

@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { getProducts } from '@/lib/github-api';
+import { getProducts, getArticles } from '@/lib/github-api';
 import applicationsData from '../../data/applications.json';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -21,6 +21,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
     }));
 
+    const articles = await getArticles();
+    const articleEntries: MetadataRoute.Sitemap = articles.map((article) => ({
+        url: `${baseUrl}/blog/${article.slug}`,
+        lastModified: new Date(article.date),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+    }));
+
     return [
         {
             url: baseUrl,
@@ -34,7 +42,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             changeFrequency: 'weekly',
             priority: 0.9,
         },
+        {
+            url: `${baseUrl}/blog`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 0.9,
+        },
         ...productEntries,
         ...applicationEntries,
+        ...articleEntries,
     ];
 }

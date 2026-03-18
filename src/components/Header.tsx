@@ -18,6 +18,7 @@ export default function Header() {
                     <Link href="/" className="text-sm font-medium text-foreground hover:text-primary transition-colors">Accueil</Link>
                     <Link href="/#servers" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Nos Serveurs</Link>
                     <Link href="/applications" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Applications</Link>
+                    <Link href="/blog" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">Blog</Link>
                 </nav>
 
                 <div className="hidden lg:flex items-center flex-1 justify-end px-4">

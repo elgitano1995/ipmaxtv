@@ -1,4 +1,4 @@
-import { Product, Category, Review } from './types';
+import { Product, Category, Review, Article } from './types';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -110,7 +110,9 @@ export async function commitGithubFile(filePath: string, content: any, message: 
 export const getProducts = () => fetchGithubFile<Product[]>('data/products.json', []);
 export const getCategories = () => fetchGithubFile<Category[]>('data/categories.json', []);
 export const getReviews = () => fetchGithubFile<Review[]>('data/reviews.json', []);
+export const getArticles = () => fetchGithubFile<Article[]>('data/articles.json', []);
 
 export const saveProducts = (products: Product[]) => commitGithubFile('data/products.json', products, 'Update products.json');
 export const saveCategories = (categories: Category[]) => commitGithubFile('data/categories.json', categories, 'Update categories.json');
 export const saveReviews = (reviews: Review[]) => commitGithubFile('data/reviews.json', reviews, 'Update reviews.json');
+export const saveArticles = (articles: Article[]) => commitGithubFile('data/articles.json', articles, 'Update articles.json');
