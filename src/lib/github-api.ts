@@ -13,11 +13,17 @@ async function fetchGithubFile<T>(filePath: string, defaultData: T): Promise<T> 
     if (!GITHUB_TOKEN || !GITHUB_REPO) {
         console.warn(`[GitHub API] Missing credentials. Falling back to local read for ${filePath}`);
         try {
-            const localPath = path.join('/tmp', filePath);
-            const data = await fs.readFile(localPath, 'utf-8');
+            const localTmpPath = path.join('/tmp', filePath);
+            const data = await fs.readFile(localTmpPath, 'utf-8');
             return JSON.parse(data) as T;
         } catch {
-            return defaultData;
+            try {
+                const localWorkspacePath = path.join(process.cwd(), filePath);
+                const data = await fs.readFile(localWorkspacePath, 'utf-8');
+                return JSON.parse(data) as T;
+            } catch {
+                return defaultData;
+            }
         }
     }
 
