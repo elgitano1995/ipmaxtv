@@ -8,6 +8,8 @@ export const metadata = {
     description: 'Découvrez nos guides complets pour installer, configurer et optimiser votre abonnement IPTV sur Smart TV, Android, Apple et Firestick.',
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function BlogIndexPage() {
     const articles = await getArticles();
 

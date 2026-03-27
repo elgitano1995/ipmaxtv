@@ -7,7 +7,9 @@ import { Package, FolderTree, Star, BookOpen } from 'lucide-react';
 import { cookies } from 'next/headers';
 import { checkAdminAuth } from '@/lib/auth';
 
-export default async function AdminPage() {
+export const dynamic = 'force-dynamic';
+
+export default async function AdminDashboard() {
     const cookieStore = await cookies();
     checkAdminAuth(cookieStore);
 
