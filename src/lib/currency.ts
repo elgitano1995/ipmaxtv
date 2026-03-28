@@ -3,36 +3,36 @@ export type CurrencyCode = 'EUR' | 'USD' | 'CAD' | 'MAD' | 'GBP' | 'CHF';
 export interface CurrencyConfig {
     code: CurrencyCode;
     symbol: string;
-    rate: number; // Exchange rate relative to 1 EUR
+    rate: number; // Exchange rate relative to 1 MAD
     label: string;
 }
 
-// Exchange rates (Static fallback - relatively typical values for 2026)
+// Exchange rates relative to 1 MAD (Moroccan Dirham) based on user specs
 export const CURRENCIES: Record<CurrencyCode, CurrencyConfig> = {
-    EUR: { code: 'EUR', symbol: '€', rate: 1.0, label: 'Euro' },
-    USD: { code: 'USD', symbol: '$', rate: 1.09, label: 'US Dollar' },
-    CAD: { code: 'CAD', symbol: 'C$', rate: 1.48, label: 'Canadian Dollar' },
-    GBP: { code: 'GBP', symbol: '£', rate: 0.85, label: 'British Pound' },
-    CHF: { code: 'CHF', symbol: 'CHF', rate: 0.95, label: 'Swiss Franc' },
-    MAD: { code: 'MAD', symbol: 'DH', rate: 10.85, label: 'Dirham Marocain' },
+    MAD: { code: 'MAD', symbol: 'DH', rate: 1.0, label: 'Dirham Marocain' },
+    EUR: { code: 'EUR', symbol: '€', rate: 8 / 75, label: 'Euro' }, // User specifies 75 MAD = 8 EUR
+    USD: { code: 'USD', symbol: '$', rate: 7.5 / 75, label: 'US Dollar' }, // User specifies 75 MAD = 7.5 USD
+    CAD: { code: 'CAD', symbol: 'C$', rate: 0.14, label: 'Canadian Dollar' },
+    GBP: { code: 'GBP', symbol: '£', rate: 0.08, label: 'British Pound' },
+    CHF: { code: 'CHF', symbol: 'CHF', rate: 0.09, label: 'Swiss Franc' },
 };
 
 /**
- * Format a base price (always assumed to be EUR internally) into the target currency.
+ * Format a base price (always assumed to be MAD internally) into the target currency.
  */
-export function formatPrice(basePriceEur: number, targetCurrency: CurrencyCode): string {
+export function formatPrice(basePriceMad: number, targetCurrency: CurrencyCode): string {
     const config = CURRENCIES[targetCurrency];
-    if (!config) return `${basePriceEur}€`; // Fallback safely
+    if (!config) return `${basePriceMad} DH`; // Fallback safely
 
-    const converted = basePriceEur * config.rate;
+    const converted = basePriceMad * config.rate;
 
-    // Formatting rules: 
-    // MAD usually doesn't show decimals for standard large purchases, but we'll keep 2 everywhere for consistency,
-    // or round gracefully if it's MAD.
+    // Formatting rules:
+    // MAD usually doesn't show decimals for exact integer subscriptions.
     if (targetCurrency === 'MAD') {
         return `${Math.ceil(converted)} ${config.symbol}`;
     }
 
+    // Other currencies get exact formatting
     return new Intl.NumberFormat('fr-FR', {
         style: 'currency',
         currency: targetCurrency,
