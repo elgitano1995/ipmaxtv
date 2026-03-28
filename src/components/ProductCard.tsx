@@ -1,17 +1,26 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { BadgeCheck, Zap, Server, ChevronRight } from 'lucide-react';
 import { Product } from '@/lib/types';
+import { useCurrency } from './CurrencyProvider';
+import { formatPrice } from '@/lib/currency';
 
 export default function ProductCard({ product }: { product: Product }) {
-    // Determine starting price (lowest variant price)
-    const startingPrice = product.variants && product.variants.length > 0
-        ? product.variants.reduce((min, p) => {
+    const { currency } = useCurrency();
+
+    let startingPriceFormatted = 'N/A';
+    if (product.variants && product.variants.length > 0) {
+        const minVariant = product.variants.reduce((min, p) => {
             const currentPrice = parseFloat(p.price.replace(/[^0-9.]/g, ''));
             const minPrice = parseFloat(min.price.replace(/[^0-9.]/g, ''));
             return currentPrice < minPrice ? p : min;
-        }, product.variants[0]).price
-        : 'N/A';
+        }, product.variants[0]);
+        
+        const numericBasePrice = parseFloat(minVariant.price.replace(/[^0-9.]/g, ''));
+        startingPriceFormatted = formatPrice(numericBasePrice, currency);
+    }
 
     return (
         <Link href={`/product/${encodeURIComponent(product.name.replace(/\s+/g, '_'))}`} className="group flex flex-col bg-card rounded-3xl border border-border shadow-sm overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-primary/10">
@@ -58,7 +67,7 @@ export default function ProductCard({ product }: { product: Product }) {
                 <div className="mt-auto pt-5 border-t border-border flex items-center justify-between">
                     <div className="flex flex-col">
                         <span className="text-xs text-muted-foreground font-semibold uppercase tracking-wider mb-0.5">À partir de</span>
-                        <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{startingPrice}</span>
+                        <span className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">{startingPriceFormatted}</span>
                     </div>
 
                     <div className="bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 px-5 py-2.5 rounded-xl font-bold text-sm flex items-center gap-1 group/btn">

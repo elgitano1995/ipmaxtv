@@ -3,11 +3,21 @@
 import { useState } from 'react';
 import { Product, ProductVariant } from '@/lib/types';
 import { MessageCircle } from 'lucide-react';
+import { useCurrency } from './CurrencyProvider';
+import { formatPrice } from '@/lib/currency';
 
 export default function ProductPricing({ product }: { product: Product }) {
     const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(
         product.variants?.length > 0 ? product.variants[0] : null
     );
+
+    const { currency } = useCurrency();
+
+    // Helper to extract float and format nicely
+    const getFormatted = (priceStr: string) => {
+        const num = parseFloat(priceStr.replace(/[^0-9.]/g, ''));
+        return formatPrice(num, currency);
+    };
 
     // Hardcode fallback WhatsApp logic or use env
     const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '33600000000'; // fallback placeholder
@@ -18,7 +28,8 @@ export default function ProductPricing({ product }: { product: Product }) {
         // Get the current page URL for the product link
         const productUrl = typeof window !== 'undefined' ? window.location.href : '';
 
-        const message = `Bonjour, je voudrais commander le serveur ${product.name}\n\nDurée sélectionnée : ${selectedVariant.duration}\nPrix : ${selectedVariant.price}\n\nLien du produit: ${productUrl}`;
+        const formattedPrice = getFormatted(selectedVariant.price);
+        const message = `Bonjour, je voudrais commander le serveur ${product.name}\n\nDurée sélectionnée : ${selectedVariant.duration}\nPrix : ${formattedPrice}\n\nLien du produit: ${productUrl}`;
         const encodedMessage = encodeURIComponent(message);
         const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`;
 
@@ -55,7 +66,7 @@ export default function ProductPricing({ product }: { product: Product }) {
                                 {variant.duration}
                             </span>
                             <span className={`text-lg font-bold ${selectedVariant?.id === variant.id ? 'text-foreground' : 'text-foreground/80'}`}>
-                                {variant.price}
+                                {getFormatted(variant.price)}
                             </span>
                         </button>
                     ))}
@@ -66,7 +77,7 @@ export default function ProductPricing({ product }: { product: Product }) {
                 <div className="flex flex-col flex-1">
                     <span className="text-sm text-muted-foreground mb-1 uppercase tracking-wider font-semibold">Total à payer</span>
                     <span className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-                        {selectedVariant?.price}
+                        {selectedVariant ? getFormatted(selectedVariant.price) : ''}
                     </span>
                 </div>
 

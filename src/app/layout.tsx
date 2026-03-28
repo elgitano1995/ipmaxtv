@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { CurrencyProvider } from "@/components/CurrencyProvider";
 import HomePageSchema from "@/components/HomePageSchema";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -65,17 +66,19 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          disableTransitionOnChange
-        >
-          <Header />
-          <main className="min-h-screen flex flex-col">
-            {children}
-          </main>
-          <Footer />
-        </ThemeProvider>
+        <CurrencyProvider>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="light"
+            disableTransitionOnChange
+          >
+            <Header />
+            <main className="min-h-screen flex flex-col">
+              {children}
+            </main>
+            <Footer />
+          </ThemeProvider>
+        </CurrencyProvider>
         <FloatingWhatsApp />
         <HomePageSchema />
         <Analytics />

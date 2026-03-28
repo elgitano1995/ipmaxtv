@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ShoppingCart, LogIn, MonitorPlay } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
+import { CurrencySwitcher } from './CurrencySwitcher';
 import GlobalSearch from './GlobalSearch';
 
 export default function Header() {
@@ -25,7 +26,8 @@ export default function Header() {
                     <GlobalSearch />
                 </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2">
+                    <CurrencySwitcher />
                     <ThemeToggle />
                 </div>
             </div>
