@@ -1,5 +1,62 @@
 [
   {
+    "id": "e25d128a-d0e2-48e6-9094-ac750ddc8df8",
+    "name": "NEO 4K Pro",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "L’abonnement NEO 4K IPTV est une solution complète pour profiter d’un divertissement illimité en haute qualité. Conçu pour offrir une expérience fluide et stable, ce service vous permet d’accéder à des milliers de chaînes TV en direct, ainsi qu’à une vaste bibliothèque de films et séries en 4K Ultra HD, Full HD et HD.\n\nGrâce à ses serveurs performants et optimisés, NEO 4K garantit une diffusion rapide avec un minimum de coupures, même lors des événements sportifs en direct. Que vous soyez amateur de football, de films récents ou de séries populaires, cet abonnement répond à tous vos besoins.\n\nCompatible avec plusieurs appareils, il fonctionne parfaitement sur Smart TV, Android TV, TV Box, smartphones, tablettes et PC, vous permettant de regarder vos contenus préférés où que vous soyez.",
+    "imageUrl": "https://i.postimg.cc/dQbJmgw0/Screenshot-20250810-032846-Brave-scaled.jpg",
+    "features": [
+      "📡 Type : Abonnement IPTV",
+      "🎥 Qualité : 4K / Full HD / HD",
+      "🌍 Contenu : Chaînes internationales + VOD",
+      "⚡ Serveurs : Haute performance / Anti-freeze",
+      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
+      "🔄 Mise à jour : Automatique",
+      "⚡ Points forts",
+      "✔ Qualité d’image jusqu’à 4K Ultra HD",
+      "✔ Accès à des milliers de chaînes internationales",
+      "✔ Chaînes sportives premium (football, événements en direct)",
+      "✔ Large catalogue de films et séries (VOD)",
+      "✔ Serveurs rapides et stables (anti-freeze)",
+      "✔ Compatible avec tous les appareils (Smart TV, Android, iOS, PC)",
+      "✔ Installation facile et rapide"
+    ],
+    "keywords": [
+      "neo 4k iptv",
+      "abonnement neo 4k",
+      "neo iptv maroc",
+      "iptv 4k abonnement",
+      "iptv premium stable",
+      "iptv sport 4k",
+      "iptv vod films séries",
+      "iptv smart tv android",
+      "abonnement iptv rapide",
+      "neo 4k pro"
+    ],
+    "variants": [
+      {
+        "id": "aaa47b35-d642-4c6d-b6bb-d032860f55d5",
+        "duration": "12 Mois",
+        "price": "30"
+      },
+      {
+        "id": "f773c3f9-f9e3-4872-8b44-4050bad527f9",
+        "duration": "06 Mois",
+        "price": "17"
+      },
+      {
+        "id": "0ceffd22-183b-4cd5-9002-18979d8962d6",
+        "duration": "03 Mois ",
+        "price": "8"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "Abonnement NEO 4K IPTV Pro – Streaming Ultra HD Stable et Rapide",
+    "metaDescription": "Profitez de NEO 4K IPTV avec chaînes internationales, sports en direct et VOD en qualité 4K. Service stable, rapide et compatible Smart TV, Android et TV Box.",
+    "order": 0
+  },
+  {
     "id": "61922612-7ba9-4c70-a1d0-c4f480d9d197",
     "name": "Abonnement Smart X2",
     "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
@@ -57,7 +114,7 @@
       "IPTV 4K Maroc",
       "Smart X2 Officiel"
     ],
-    "order": 0
+    "order": 1
   },
   {
     "id": "8816c02f-6d13-435f-975b-9db0e24906d7",
@@ -106,7 +163,7 @@
       "IPTV Android TV",
       "Atlas Pro TV Gratuit."
     ],
-    "order": 1
+    "order": 2
   },
   {
     "id": "1c5fd0db-c2d3-4569-85a9-250134f1c3c2",
@@ -155,7 +212,7 @@
     "isStable": true,
     "metaTitle": "Dream TV Officiel : Abonnement IPTV Premium 4K & VOD sans coupure",
     "metaDescription": "Profitez du meilleur du streaming avec Dream TV. Accédez à +7000 chaînes en direct et VOD 4K sur tous vos appareils. Serveur stable, zapping rapide et support 24/7. Abonnez-vous dès maintenant !",
-    "order": 2
+    "order": 3
   },
   {
     "id": "0adad292-fc22-44cd-8583-be8f928e9e16",
@@ -194,63 +251,6 @@
     "isStable": false,
     "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
     "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !",
-    "order": 3
-  },
-  {
-    "id": "e25d128a-d0e2-48e6-9094-ac750ddc8df8",
-    "name": "NEO 4K Pro",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "L’abonnement NEO 4K IPTV est une solution complète pour profiter d’un divertissement illimité en haute qualité. Conçu pour offrir une expérience fluide et stable, ce service vous permet d’accéder à des milliers de chaînes TV en direct, ainsi qu’à une vaste bibliothèque de films et séries en 4K Ultra HD, Full HD et HD.\n\nGrâce à ses serveurs performants et optimisés, NEO 4K garantit une diffusion rapide avec un minimum de coupures, même lors des événements sportifs en direct. Que vous soyez amateur de football, de films récents ou de séries populaires, cet abonnement répond à tous vos besoins.\n\nCompatible avec plusieurs appareils, il fonctionne parfaitement sur Smart TV, Android TV, TV Box, smartphones, tablettes et PC, vous permettant de regarder vos contenus préférés où que vous soyez.",
-    "imageUrl": "https://i.postimg.cc/dQbJmgw0/Screenshot-20250810-032846-Brave-scaled.jpg",
-    "features": [
-      "📡 Type : Abonnement IPTV",
-      "🎥 Qualité : 4K / Full HD / HD",
-      "🌍 Contenu : Chaînes internationales + VOD",
-      "⚡ Serveurs : Haute performance / Anti-freeze",
-      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
-      "🔄 Mise à jour : Automatique",
-      "⚡ Points forts",
-      "✔ Qualité d’image jusqu’à 4K Ultra HD",
-      "✔ Accès à des milliers de chaînes internationales",
-      "✔ Chaînes sportives premium (football, événements en direct)",
-      "✔ Large catalogue de films et séries (VOD)",
-      "✔ Serveurs rapides et stables (anti-freeze)",
-      "✔ Compatible avec tous les appareils (Smart TV, Android, iOS, PC)",
-      "✔ Installation facile et rapide"
-    ],
-    "keywords": [
-      "neo 4k iptv",
-      "abonnement neo 4k",
-      "neo iptv maroc",
-      "iptv 4k abonnement",
-      "iptv premium stable",
-      "iptv sport 4k",
-      "iptv vod films séries",
-      "iptv smart tv android",
-      "abonnement iptv rapide",
-      "neo 4k pro"
-    ],
-    "variants": [
-      {
-        "id": "aaa47b35-d642-4c6d-b6bb-d032860f55d5",
-        "duration": "12 Mois",
-        "price": "30"
-      },
-      {
-        "id": "f773c3f9-f9e3-4872-8b44-4050bad527f9",
-        "duration": "06 Mois",
-        "price": "17"
-      },
-      {
-        "id": "0ceffd22-183b-4cd5-9002-18979d8962d6",
-        "duration": "03 Mois ",
-        "price": "8"
-      }
-    ],
-    "isBestSeller": true,
-    "isStable": true,
-    "metaTitle": "Abonnement NEO 4K IPTV Pro – Streaming Ultra HD Stable et Rapide",
-    "metaDescription": "Profitez de NEO 4K IPTV avec chaînes internationales, sports en direct et VOD en qualité 4K. Service stable, rapide et compatible Smart TV, Android et TV Box.",
     "order": 4
   },
   {
