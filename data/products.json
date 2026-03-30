@@ -56,7 +56,8 @@
       "بث مباشر مباريات",
       "IPTV 4K Maroc",
       "Smart X2 Officiel"
-    ]
+    ],
+    "order": 0
   },
   {
     "id": "8816c02f-6d13-435f-975b-9db0e24906d7",
@@ -104,7 +105,8 @@
       "VOD Films Séries",
       "IPTV Android TV",
       "Atlas Pro TV Gratuit."
-    ]
+    ],
+    "order": 1
   },
   {
     "id": "1c5fd0db-c2d3-4569-85a9-250134f1c3c2",
@@ -152,7 +154,8 @@
     "isBestSeller": false,
     "isStable": true,
     "metaTitle": "Dream TV Officiel : Abonnement IPTV Premium 4K & VOD sans coupure",
-    "metaDescription": "Profitez du meilleur du streaming avec Dream TV. Accédez à +7000 chaînes en direct et VOD 4K sur tous vos appareils. Serveur stable, zapping rapide et support 24/7. Abonnez-vous dès maintenant !"
+    "metaDescription": "Profitez du meilleur du streaming avec Dream TV. Accédez à +7000 chaînes en direct et VOD 4K sur tous vos appareils. Serveur stable, zapping rapide et support 24/7. Abonnez-vous dès maintenant !",
+    "order": 2
   },
   {
     "id": "0adad292-fc22-44cd-8583-be8f928e9e16",
@@ -190,7 +193,8 @@
     "isBestSeller": false,
     "isStable": false,
     "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
-    "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !"
+    "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !",
+    "order": 3
   },
   {
     "id": "2007a7bf-9d77-4a39-b6e5-3474ee98d58a",
@@ -228,7 +232,8 @@
     "isBestSeller": false,
     "isStable": true,
     "metaTitle": "Dream 4K Officiel : Abonnement Premium Stable & VOD 4K",
-    "metaDescription": "Découvrez Dream 4K, l'abonnement IPTV leader pour vos chaînes et VOD en Ultra HD. Profitez d'une stabilité totale sans coupure sur tous vos appareils. Livraison instantanée et support 24/7. Abonnez-vous maintenant !"
+    "metaDescription": "Découvrez Dream 4K, l'abonnement IPTV leader pour vos chaînes et VOD en Ultra HD. Profitez d'une stabilité totale sans coupure sur tous vos appareils. Livraison instantanée et support 24/7. Abonnez-vous maintenant !",
+    "order": 4
   },
   {
     "id": "5fc04379-2085-4124-a343-9a7476356f69",
@@ -275,7 +280,8 @@
     "isBestSeller": false,
     "isStable": true,
     "metaTitle": "Win Player IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
-    "metaDescription": "Profitez de Win Player (WinPlus), l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. +6000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !"
+    "metaDescription": "Profitez de Win Player (WinPlus), l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. +6000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !",
+    "order": 5
   },
   {
     "id": "ce047b62-2808-44cf-90cb-94294532acf8",
@@ -314,204 +320,8 @@
     "isBestSeller": false,
     "isStable": true,
     "metaTitle": "Abonnement DINO TV Officiel : IPTV Premium 4K & VOD Sans Coupure",
-    "metaDescription": "Découvrez DINO TV, l'abonnement IPTV de référence. Accédez à +10 000 chaînes mondiales et VOD en 4K. Serveur stable, zapping rapide et compatibilité totale. Profitez du meilleur prix et d'une activation instantanée !"
-  },
-  {
-    "id": "565de105-5413-49c4-a822-3d9346547d88",
-    "name": "TREX Officiel : Abonnement Premium ",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "TREX IPTV s'impose comme l'un des services de streaming les plus fiables et les plus complets du marché. Réputé pour sa stabilité exceptionnelle, il offre un accès instantané à une vaste sélection de chaînes internationales et à une bibliothèque VOD massive en haute définition. Conçu pour répondre aux attentes des utilisateurs les plus exigeants, TREX IPTV garantit une expérience de visionnage fluide, sans latence, idéale pour les amateurs de sport en direct et de cinéma.",
-    "imageUrl": "https://i.postimg.cc/tRxYhqt3/trex.png",
-    "features": [
-      "Stabilité Inégalée : Infrastructure serveur robuste conçue pour éviter les coupures et les mises en mémoire tampon (buffering), même lors des grands événements.",
-      "Qualité d'Image 4K & Ultra HD : Diffusion haute résolution pour une clarté visuelle exceptionnelle sur tous vos programmes.",
-      "Catalogue Immense : Plus de 10 000 chaînes en direct et une bibliothèque VOD de plus de 30 000 films et séries mis à jour régulièrement.",
-      "Compatibilité Étendue : Fonctionne parfaitement sur tous les appareils : Android TV, Smart TV, Firestick, MAG, Smartphones et Tablettes.",
-      "Interface Intuitive : Navigation rapide et simplifiée avec un guide électronique des programmes (EPG) complet.",
-      "Support Client Réactif : Assistance technique disponible pour garantir une installation rapide et une utilisation sans souci."
-    ],
-    "keywords": [
-      "TREX IPTV",
-      "Abonnement TREX",
-      "IPTV 4K Stable",
-      "Meilleur IPTV France",
-      "Code TREX IPTV",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV",
-      "TREX IPTV Officiel"
-    ],
-    "variants": [
-      {
-        "id": "68373769-f1e7-4737-b4c9-4613ae2cab99",
-        "duration": "12 Mois",
-        "price": "349 DH"
-      },
-      {
-        "id": "a5e340f1-670a-4161-985f-946a86f7a252",
-        "duration": "6 Mois",
-        "price": "169 DH"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": true,
-    "metaTitle": "TREX IPTV Officiel : Abonnement Premium 4K, Stable & Sans Coupure",
-    "metaDescription": "Découvrez pourquoi TREX IPTV est le meilleur choix. Accédez à +10 000 chaînes mondiales et VOD en 4K avec une stabilité totale. Compatible tous supports. Activation immédiate et support 24/7 !"
-  },
-  {
-    "id": "84777f7e-9885-425f-aee4-ea1155eb0385",
-    "name": "Abonnement EAGLE TV",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "EAGLE TV est une plateforme de divertissement premium conçue pour offrir une expérience de streaming ultime en haute définition. Grâce à une infrastructure robuste garantissant un temps de disponibilité de 99,9 %, ce service transforme votre façon de regarder la télévision en éliminant les interruptions et le buffering. Que vous soyez un fan inconditionnel de sport, un passionné de cinéma ou à la recherche de programmes pour enfants, EAGLE TV propose une solution tout-en-un regroupant les meilleures chaînes mondiales et les plateformes de streaming les plus populaires.",
-    "imageUrl": "https://i.postimg.cc/sfp7yWjk/eagle-tv.png",
-    "features": [
-      "Contenu Monumental : Accès à plus de 30 000 chaînes en direct et une immense bibliothèque de 120 000 titres VOD (films et séries).",
-      "Qualité Ultra-HD : Support complet des résolutions 4K et 8K pour une clarté visuelle exceptionnelle.",
-      "Stabilité Maximale : Technologie anti-buffering et uptime de 99,9 % pour une diffusion fluide sans coupure.",
-      "Fonctionnalités Avancées : Guide électronique des programmes (EPG) et fonction Catch-Up pour rattraper vos émissions manquées.",
-      "Compatibilité Totale : Fonctionne sur tous les appareils (Smart TV, Android Box, Firestick, MAG, Smartphones, iOS et PC).",
-      "Sports en Direct : Couverture complète des grands événements (BeIN Sports, ESPN, Sky Sports, etc.) et événements Pay-Per-View (PPV).",
-      "Sans Restriction Géo : Utilisable partout dans le monde avec une activation instantanée."
-    ],
-    "keywords": [
-      "EAGLE TV",
-      "EAGLE IPTV",
-      "Abonnement EAGLE TV",
-      "IPTV 4K 8K",
-      "Meilleur IPTV Stable",
-      "Code EAGLE IPTV",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV",
-      "EAGLE IPTV Officiel"
-    ],
-    "variants": [
-      {
-        "id": "a27d748d-b45a-4b25-881d-dd17ecede1fc",
-        "duration": "12 Mois ",
-        "price": "199 DH"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": false,
-    "metaTitle": "EAGLE TV Officiel : Abonnement IPTV Premium 4K/8K & 30k Chaînes",
-    "metaDescription": "Découvrez EAGLE TV, l'expérience IPTV ultime avec +30 000 chaînes et 120 000 VOD en 4K/8K. Profitez d'une stabilité de 99,9 % sans buffering sur tous vos appareils. Activation rapide et support 24/7. Abonnez-vous maintenant !"
-  },
-  {
-    "id": "08842958-68bc-4c76-8075-71e4ee83d082",
-    "name": "KING PRO IPTV ",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "KING PRO est l'un des abonnements IPTV les plus puissants et les plus complets du marché, conçu pour offrir une expérience de divertissement premium sans compromis. Grâce à une infrastructure de serveurs ultra-rapides, il permet d'accéder à un bouquet mondial de chaînes en direct et à une bibliothèque de films et séries constamment mise à jour. C'est la solution idéale pour ceux qui recherchent une fluidité parfaite et une qualité d'image exceptionnelle, que ce soit pour le sport, le cinéma ou les programmes internationaux.",
-    "imageUrl": "https://i.postimg.cc/LXhSDLyN/KING-PRO.png",
-    "features": [
-      "Contenu Massif : Plus de 12 000 chaînes internationales en direct et une bibliothèque VOD dépassant les 40 000 titres.",
-      "Qualité de Diffusion : Support complet des résolutions 4K, Ultra HD et Full HD pour une expérience visuelle immersive.",
-      "Stabilité Exceptionnelle : Équipé de serveurs haute performance pour garantir une stabilité totale et une absence de coupures pendant les grands événements.",
-      "Compatibilité Étendue : Fonctionne sur tous les appareils, notamment Android TV, Smart TV (Samsung, LG), MAG, Firestick et Smartphones.",
-      "Zapping Ultra-Rapide : Changement de chaîne instantané grâce à une technologie de flux optimisée.",
-      "Mises à Jour Régulières : Ajout quotidien de nouveaux contenus VOD et de nouvelles chaînes sans frais supplémentaires."
-    ],
-    "keywords": [
-      "King Pro IPTV",
-      "King IPTV Pro",
-      "Abonnement King Pro",
-      "IPTV 4K Stable",
-      "Meilleur IPTV Maroc",
-      "Code King Pro",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV"
-    ],
-    "variants": [
-      {
-        "id": "4bb501ea-6b12-464e-9244-a7e42854f116",
-        "duration": "12 Mois",
-        "price": "179 DH"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": false,
-    "metaTitle": "KING PRO IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
-    "metaDescription": "Profitez de KING PRO, l'abonnement IPTV leader pour vos chaînes et VOD en 4K. Accédez à +12 000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous maintenant !"
-  },
-  {
-    "id": "7fb9931c-b1e2-4626-b670-d29869c4d882",
-    "name": "NET TV",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "NET TV est le fournisseur de référence pour une expérience télévisuelle numérique sans frontières en France. En combinant une technologie de serveur européen dédié de haute qualité à une connexion ultra-rapide, ce service permet de s'affranchir des installations par câbles traditionnelles. Profitez d'un accès instantané à un catalogue massif de chaînes en direct et de contenus à la demande (VOD), garantissant une immersion totale et un streaming fluide, idéal pour les passionnés de cinéma et les fans de sport exclusif.",
-    "imageUrl": "https://i.postimg.cc/8kKHxWZz/NET-TV.webp",
-    "features": [
-      "Vaste Catalogue : Plus de 30 000 chaînes de télévision internationales et plus de 220 000 contenus VOD (films et séries).",
-      "Vitesse de Connexion Exceptionnelle : Serveurs européens dédiés avec une bande passante de 10 Gbps, permettant une ouverture des chaînes en moins de 0,5 seconde.",
-      "Haute Qualité d'Image : Diffusion disponible en qualité Full HD et 4K pour une clarté visuelle optimale.",
-      "Installation Instantanée : Configuration simplifiée et rapide sur l'appareil de votre choix.",
-      "Compatibilité Multi-Support : Optimisé pour Smart TV, Boîtiers Android, Smartphones, Tablettes et ordinateurs.",
-      "Stabilité Garantie : Un taux de disponibilité (uptime) de 98% pour un streaming sans coupures."
-    ],
-    "keywords": [
-      "NET TV",
-      "NETIPTV",
-      "Abonnement NET TV",
-      "IPTV France Premium",
-      "IPTV 4K Stable",
-      "Code NETIPTV",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV"
-    ],
-    "variants": [
-      {
-        "id": "49e32742-437e-4870-90f3-27e5d49bfd8c",
-        "duration": "12 Mois ",
-        "price": "199 DH"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": true,
-    "metaTitle": "NET TV Officiel : Abonnement IPTV Premium 4K & +30k Chaînes en France",
-    "metaDescription": "Découvrez NET TV, le meilleur service IPTV en France avec +30 000 chaînes et 220 000 VOD en 4K. Profitez d'une connexion 10 Gbps stable et sans coupure sur tous vos appareils. Activation instantanée et support 24/7 !"
-  },
-  {
-    "id": "e31914b6-dd32-47e7-8218-37e50a28f34a",
-    "name": "FOSTO TV ",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "FOSTO TV est une solution de divertissement numérique haut de gamme qui transforme votre écran en un centre multimédia complet. Grâce à une technologie de pointe, cet abonnement offre un accès stable et fluide à une immense variété de contenus mondiaux. Que vous soyez amateur de grands événements sportifs en direct, de cinéma international ou de programmes jeunesse, FOSTO TV propose une expérience utilisateur optimisée, sans latence, pour un plaisir de visionnage inégalé.",
-    "imageUrl": "https://i.postimg.cc/g0tqXLnj/FOSTO-TV.jpg",
-    "features": [
-      "Vaste Catalogue de Chaînes : Accès à des milliers de chaînes internationales en direct couvrant le sport, les actualités et le divertissement.",
-      "Bibliothèque VOD Massive : Des milliers d'heures de films et de séries récentes, régulièrement mis à jour pour suivre les tendances mondiales.",
-      "Qualité d'Image Exceptionnelle : Support des résolutions 4K, Ultra HD et Full HD pour une netteté visuelle parfaite.",
-      "Technologie Anti-Freeze : Serveurs puissants garantissant une stabilité maximale sans mise en mémoire tampon (buffering).",
-      "Compatibilité Multi-Appareils : Fonctionne parfaitement sur Android TV, Smart TV, Firestick, Smartphones et Tablettes.",
-      "Guide des Programmes (EPG) : Interface conviviale permettant de consulter les horaires de vos émissions préférées en un clin d'œil."
-    ],
-    "keywords": [
-      "FOSTO TV",
-      "Abonnement FOSTO TV",
-      "IPTV 4K Stable",
-      "Meilleur IPTV 2026",
-      "Code FOSTO TV",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV",
-      "FOSTO TV Pro"
-    ],
-    "variants": [
-      {
-        "id": "1d0e20ea-56d7-4029-8ebf-a2944e700b6d",
-        "duration": "12 Mois ",
-        "price": "199 DH"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": true,
-    "metaTitle": "FOSTO TV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
-    "metaDescription": "Découvrez FOSTO TV, l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. Profitez de milliers de contenus sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !"
+    "metaDescription": "Découvrez DINO TV, l'abonnement IPTV de référence. Accédez à +10 000 chaînes mondiales et VOD en 4K. Serveur stable, zapping rapide et compatibilité totale. Profitez du meilleur prix et d'une activation instantanée !",
+    "order": 6
   },
   {
     "id": "e25d128a-d0e2-48e6-9094-ac750ddc8df8",
@@ -567,6 +377,209 @@
     "isBestSeller": true,
     "isStable": true,
     "metaTitle": "Abonnement NEO 4K IPTV Pro – Streaming Ultra HD Stable et Rapide",
-    "metaDescription": "Profitez de NEO 4K IPTV avec chaînes internationales, sports en direct et VOD en qualité 4K. Service stable, rapide et compatible Smart TV, Android et TV Box."
+    "metaDescription": "Profitez de NEO 4K IPTV avec chaînes internationales, sports en direct et VOD en qualité 4K. Service stable, rapide et compatible Smart TV, Android et TV Box.",
+    "order": 7
+  },
+  {
+    "id": "565de105-5413-49c4-a822-3d9346547d88",
+    "name": "TREX Officiel : Abonnement Premium ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "TREX IPTV s'impose comme l'un des services de streaming les plus fiables et les plus complets du marché. Réputé pour sa stabilité exceptionnelle, il offre un accès instantané à une vaste sélection de chaînes internationales et à une bibliothèque VOD massive en haute définition. Conçu pour répondre aux attentes des utilisateurs les plus exigeants, TREX IPTV garantit une expérience de visionnage fluide, sans latence, idéale pour les amateurs de sport en direct et de cinéma.",
+    "imageUrl": "https://i.postimg.cc/tRxYhqt3/trex.png",
+    "features": [
+      "Stabilité Inégalée : Infrastructure serveur robuste conçue pour éviter les coupures et les mises en mémoire tampon (buffering), même lors des grands événements.",
+      "Qualité d'Image 4K & Ultra HD : Diffusion haute résolution pour une clarté visuelle exceptionnelle sur tous vos programmes.",
+      "Catalogue Immense : Plus de 10 000 chaînes en direct et une bibliothèque VOD de plus de 30 000 films et séries mis à jour régulièrement.",
+      "Compatibilité Étendue : Fonctionne parfaitement sur tous les appareils : Android TV, Smart TV, Firestick, MAG, Smartphones et Tablettes.",
+      "Interface Intuitive : Navigation rapide et simplifiée avec un guide électronique des programmes (EPG) complet.",
+      "Support Client Réactif : Assistance technique disponible pour garantir une installation rapide et une utilisation sans souci."
+    ],
+    "keywords": [
+      "TREX IPTV",
+      "Abonnement TREX",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code TREX IPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "TREX IPTV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "68373769-f1e7-4737-b4c9-4613ae2cab99",
+        "duration": "12 Mois",
+        "price": "349 DH"
+      },
+      {
+        "id": "a5e340f1-670a-4161-985f-946a86f7a252",
+        "duration": "6 Mois",
+        "price": "169 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "TREX IPTV Officiel : Abonnement Premium 4K, Stable & Sans Coupure",
+    "metaDescription": "Découvrez pourquoi TREX IPTV est le meilleur choix. Accédez à +10 000 chaînes mondiales et VOD en 4K avec une stabilité totale. Compatible tous supports. Activation immédiate et support 24/7 !",
+    "order": 8
+  },
+  {
+    "id": "84777f7e-9885-425f-aee4-ea1155eb0385",
+    "name": "Abonnement EAGLE TV",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "EAGLE TV est une plateforme de divertissement premium conçue pour offrir une expérience de streaming ultime en haute définition. Grâce à une infrastructure robuste garantissant un temps de disponibilité de 99,9 %, ce service transforme votre façon de regarder la télévision en éliminant les interruptions et le buffering. Que vous soyez un fan inconditionnel de sport, un passionné de cinéma ou à la recherche de programmes pour enfants, EAGLE TV propose une solution tout-en-un regroupant les meilleures chaînes mondiales et les plateformes de streaming les plus populaires.",
+    "imageUrl": "https://i.postimg.cc/sfp7yWjk/eagle-tv.png",
+    "features": [
+      "Contenu Monumental : Accès à plus de 30 000 chaînes en direct et une immense bibliothèque de 120 000 titres VOD (films et séries).",
+      "Qualité Ultra-HD : Support complet des résolutions 4K et 8K pour une clarté visuelle exceptionnelle.",
+      "Stabilité Maximale : Technologie anti-buffering et uptime de 99,9 % pour une diffusion fluide sans coupure.",
+      "Fonctionnalités Avancées : Guide électronique des programmes (EPG) et fonction Catch-Up pour rattraper vos émissions manquées.",
+      "Compatibilité Totale : Fonctionne sur tous les appareils (Smart TV, Android Box, Firestick, MAG, Smartphones, iOS et PC).",
+      "Sports en Direct : Couverture complète des grands événements (BeIN Sports, ESPN, Sky Sports, etc.) et événements Pay-Per-View (PPV).",
+      "Sans Restriction Géo : Utilisable partout dans le monde avec une activation instantanée."
+    ],
+    "keywords": [
+      "EAGLE TV",
+      "EAGLE IPTV",
+      "Abonnement EAGLE TV",
+      "IPTV 4K 8K",
+      "Meilleur IPTV Stable",
+      "Code EAGLE IPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "EAGLE IPTV Officiel"
+    ],
+    "variants": [
+      {
+        "id": "a27d748d-b45a-4b25-881d-dd17ecede1fc",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": false,
+    "metaTitle": "EAGLE TV Officiel : Abonnement IPTV Premium 4K/8K & 30k Chaînes",
+    "metaDescription": "Découvrez EAGLE TV, l'expérience IPTV ultime avec +30 000 chaînes et 120 000 VOD en 4K/8K. Profitez d'une stabilité de 99,9 % sans buffering sur tous vos appareils. Activation rapide et support 24/7. Abonnez-vous maintenant !",
+    "order": 9
+  },
+  {
+    "id": "08842958-68bc-4c76-8075-71e4ee83d082",
+    "name": "KING PRO IPTV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "KING PRO est l'un des abonnements IPTV les plus puissants et les plus complets du marché, conçu pour offrir une expérience de divertissement premium sans compromis. Grâce à une infrastructure de serveurs ultra-rapides, il permet d'accéder à un bouquet mondial de chaînes en direct et à une bibliothèque de films et séries constamment mise à jour. C'est la solution idéale pour ceux qui recherchent une fluidité parfaite et une qualité d'image exceptionnelle, que ce soit pour le sport, le cinéma ou les programmes internationaux.",
+    "imageUrl": "https://i.postimg.cc/LXhSDLyN/KING-PRO.png",
+    "features": [
+      "Contenu Massif : Plus de 12 000 chaînes internationales en direct et une bibliothèque VOD dépassant les 40 000 titres.",
+      "Qualité de Diffusion : Support complet des résolutions 4K, Ultra HD et Full HD pour une expérience visuelle immersive.",
+      "Stabilité Exceptionnelle : Équipé de serveurs haute performance pour garantir une stabilité totale et une absence de coupures pendant les grands événements.",
+      "Compatibilité Étendue : Fonctionne sur tous les appareils, notamment Android TV, Smart TV (Samsung, LG), MAG, Firestick et Smartphones.",
+      "Zapping Ultra-Rapide : Changement de chaîne instantané grâce à une technologie de flux optimisée.",
+      "Mises à Jour Régulières : Ajout quotidien de nouveaux contenus VOD et de nouvelles chaînes sans frais supplémentaires."
+    ],
+    "keywords": [
+      "King Pro IPTV",
+      "King IPTV Pro",
+      "Abonnement King Pro",
+      "IPTV 4K Stable",
+      "Meilleur IPTV Maroc",
+      "Code King Pro",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV"
+    ],
+    "variants": [
+      {
+        "id": "4bb501ea-6b12-464e-9244-a7e42854f116",
+        "duration": "12 Mois",
+        "price": "179 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": false,
+    "metaTitle": "KING PRO IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
+    "metaDescription": "Profitez de KING PRO, l'abonnement IPTV leader pour vos chaînes et VOD en 4K. Accédez à +12 000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous maintenant !",
+    "order": 10
+  },
+  {
+    "id": "7fb9931c-b1e2-4626-b670-d29869c4d882",
+    "name": "NET TV",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "NET TV est le fournisseur de référence pour une expérience télévisuelle numérique sans frontières en France. En combinant une technologie de serveur européen dédié de haute qualité à une connexion ultra-rapide, ce service permet de s'affranchir des installations par câbles traditionnelles. Profitez d'un accès instantané à un catalogue massif de chaînes en direct et de contenus à la demande (VOD), garantissant une immersion totale et un streaming fluide, idéal pour les passionnés de cinéma et les fans de sport exclusif.",
+    "imageUrl": "https://i.postimg.cc/8kKHxWZz/NET-TV.webp",
+    "features": [
+      "Vaste Catalogue : Plus de 30 000 chaînes de télévision internationales et plus de 220 000 contenus VOD (films et séries).",
+      "Vitesse de Connexion Exceptionnelle : Serveurs européens dédiés avec une bande passante de 10 Gbps, permettant une ouverture des chaînes en moins de 0,5 seconde.",
+      "Haute Qualité d'Image : Diffusion disponible en qualité Full HD et 4K pour une clarté visuelle optimale.",
+      "Installation Instantanée : Configuration simplifiée et rapide sur l'appareil de votre choix.",
+      "Compatibilité Multi-Support : Optimisé pour Smart TV, Boîtiers Android, Smartphones, Tablettes et ordinateurs.",
+      "Stabilité Garantie : Un taux de disponibilité (uptime) de 98% pour un streaming sans coupures."
+    ],
+    "keywords": [
+      "NET TV",
+      "NETIPTV",
+      "Abonnement NET TV",
+      "IPTV France Premium",
+      "IPTV 4K Stable",
+      "Code NETIPTV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV"
+    ],
+    "variants": [
+      {
+        "id": "49e32742-437e-4870-90f3-27e5d49bfd8c",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "NET TV Officiel : Abonnement IPTV Premium 4K & +30k Chaînes en France",
+    "metaDescription": "Découvrez NET TV, le meilleur service IPTV en France avec +30 000 chaînes et 220 000 VOD en 4K. Profitez d'une connexion 10 Gbps stable et sans coupure sur tous vos appareils. Activation instantanée et support 24/7 !",
+    "order": 11
+  },
+  {
+    "id": "e31914b6-dd32-47e7-8218-37e50a28f34a",
+    "name": "FOSTO TV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "FOSTO TV est une solution de divertissement numérique haut de gamme qui transforme votre écran en un centre multimédia complet. Grâce à une technologie de pointe, cet abonnement offre un accès stable et fluide à une immense variété de contenus mondiaux. Que vous soyez amateur de grands événements sportifs en direct, de cinéma international ou de programmes jeunesse, FOSTO TV propose une expérience utilisateur optimisée, sans latence, pour un plaisir de visionnage inégalé.",
+    "imageUrl": "https://i.postimg.cc/g0tqXLnj/FOSTO-TV.jpg",
+    "features": [
+      "Vaste Catalogue de Chaînes : Accès à des milliers de chaînes internationales en direct couvrant le sport, les actualités et le divertissement.",
+      "Bibliothèque VOD Massive : Des milliers d'heures de films et de séries récentes, régulièrement mis à jour pour suivre les tendances mondiales.",
+      "Qualité d'Image Exceptionnelle : Support des résolutions 4K, Ultra HD et Full HD pour une netteté visuelle parfaite.",
+      "Technologie Anti-Freeze : Serveurs puissants garantissant une stabilité maximale sans mise en mémoire tampon (buffering).",
+      "Compatibilité Multi-Appareils : Fonctionne parfaitement sur Android TV, Smart TV, Firestick, Smartphones et Tablettes.",
+      "Guide des Programmes (EPG) : Interface conviviale permettant de consulter les horaires de vos émissions préférées en un clin d'œil."
+    ],
+    "keywords": [
+      "FOSTO TV",
+      "Abonnement FOSTO TV",
+      "IPTV 4K Stable",
+      "Meilleur IPTV 2026",
+      "Code FOSTO TV",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "FOSTO TV Pro"
+    ],
+    "variants": [
+      {
+        "id": "1d0e20ea-56d7-4029-8ebf-a2944e700b6d",
+        "duration": "12 Mois ",
+        "price": "199 DH"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "FOSTO TV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
+    "metaDescription": "Découvrez FOSTO TV, l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. Profitez de milliers de contenus sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !",
+    "order": 12
   }
 ]
