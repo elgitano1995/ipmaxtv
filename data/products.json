@@ -581,5 +581,58 @@
     "metaTitle": "FOSTO TV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
     "metaDescription": "Découvrez FOSTO TV, l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. Profitez de milliers de contenus sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !",
     "order": 12
+  },
+  {
+    "id": "02ddf613-e2c2-4cdc-83ce-011b9120672f",
+    "name": "Abonnement Strong 8K IPTV",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "L’abonnement Strong 8K IPTV est une solution premium de streaming qui vous permet d’accéder à une expérience audiovisuelle exceptionnelle en Ultra HD 4K et 8K. Grâce à une infrastructure avancée et des serveurs haute performance, ce service offre une diffusion fluide, rapide et sans interruption, même lors des événements sportifs en direct.\n\nAvec Strong 8K, profitez d’un accès à des milliers de chaînes internationales couvrant le sport, les films, les séries, les documentaires et bien plus encore. Le service inclut également une vaste bibliothèque VOD régulièrement mise à jour, idéale pour regarder vos contenus préférés à tout moment.\n\nCe service IPTV est conçu pour fonctionner sur plusieurs appareils : Smart TV, Android TV, TV Box, smartphone, tablette et PC, offrant une grande flexibilité d’utilisation où que vous soyez",
+    "imageUrl": "https://i.postimg.cc/pT0mbwKV/93f36cee-f2ed-4b61-a9fc-a402ba991738-1000x1000-rfv6Ljcgs-Yn4gwt9Ga-Wd9v-Wmr-Rx4Wj5j-Xnnhk9TO.webp",
+    "features": [
+      "Points forts",
+      "✔ Qualité vidéo jusqu’à 8K Ultra HD",
+      "✔ +30 000 chaînes TV internationales",
+      "✔ Bibliothèque VOD riche (films & séries)",
+      "✔ Streaming fluide avec technologie anti-freeze",
+      "✔ Serveurs rapides avec 99.9% uptime",
+      "✔ Compatible avec tous les appareils (Smart TV, Android, iOS, PC)",
+      "✔ Installation simple et rapide",
+      "⚙️ Caractéristiques techniques",
+      "📡 Type : Abonnement IPTV Premium",
+      "🎥 Qualité : 8K / 4K / Full HD / HD",
+      "🌍 Contenu : Chaînes internationales + VOD",
+      "⚡ Serveurs : Haute performance / Anti-freeze",
+      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
+      "🔄 Mise à jour : Contenu mis à jour régulièrement",
+      "🔐 Connexion : 1 appareil (option multi-écrans possible)"
+    ],
+    "keywords": [
+      "strong 8k iptv",
+      "abonnement strong iptv",
+      "iptv 8k maroc",
+      "iptv 4k premium",
+      "strong iptv 2026",
+      "iptv stable sans coupure",
+      "iptv sport 4k",
+      "iptv vod films séries",
+      "iptv smart tv android",
+      "abonnement iptv rapide"
+    ],
+    "variants": [
+      {
+        "id": "c41506a3-ae49-4fbb-9fab-53e693bb204d",
+        "duration": "6 Mois ",
+        "price": "18"
+      },
+      {
+        "id": "4a4fd36d-c32f-43f4-9c41-ea51d2692cc1",
+        "duration": "12 Mois",
+        "price": "349"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "Abonnement Strong 8K IPTV – Streaming Ultra HD 4K/8K Stable et Sans Coupure",
+    "metaDescription": "Découvrez Strong 8K IPTV avec +30 000 chaînes, films et séries en 4K/8K. Serveurs rapides, streaming fluide sans coupure, compatible Smart TV, Android et TV Box."
   }
 ]
