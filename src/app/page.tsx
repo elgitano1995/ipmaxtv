@@ -147,7 +147,7 @@ export default async function Home() {
       <section className="py-20 bg-muted/30 border-t border-border">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-extrabold tracking-tight mb-4">Pourquoi choisir IPMaxTV ?</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight mb-4">Pourquoi choisir TV4Watch ?</h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">Nous nous engageons à fournir le meilleur service de streaming francophone avec une technologie de pointe.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

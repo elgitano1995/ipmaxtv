@@ -17,7 +17,7 @@ export default function ArticleManager({ initialArticles }: { initialArticles: A
     const [excerpt, setExcerpt] = useState('');
     const [content, setContent] = useState('');
     const [coverImage, setCoverImage] = useState('');
-    const [author, setAuthor] = useState('IPMaxTV Expert');
+    const [author, setAuthor] = useState('TV4Watch Expert');
     const [keywordsInput, setKeywordsInput] = useState('');
 
     const resetForm = () => {
@@ -27,7 +27,7 @@ export default function ArticleManager({ initialArticles }: { initialArticles: A
         setExcerpt('');
         setContent('');
         setCoverImage('');
-        setAuthor('IPMaxTV Expert');
+        setAuthor('TV4Watch Expert');
         setKeywordsInput('');
         setIsModalOpen(false);
     };

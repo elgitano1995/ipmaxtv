@@ -5,7 +5,7 @@ import ApplicationCard from '@/components/ApplicationCard';
 import { Info } from 'lucide-react';
 
 export const metadata: Metadata = {
-    title: 'Applications & Codes Downloader | IPMaxTV',
+    title: 'Applications & Codes Downloader | TV4Watch',
     description: 'Une liste complète des codes Downloader pour toutes vos applications IPTV préférées. Entrez simplement le code sur votre appareil.',
 };
 

@@ -12,7 +12,7 @@ export default function Header() {
                     <div className="bg-primary/20 p-2 rounded-lg group-hover:bg-primary/30 transition-colors">
                         <MonitorPlay className="w-6 h-6 text-primary" />
                     </div>
-                    <span className="font-bold text-xl tracking-tight">IPMax<span className="text-primary">TV</span></span>
+                    <span className="font-bold text-xl tracking-tight">TV4<span className="text-primary">Watch</span></span>
                 </Link>
 
                 <nav className="hidden md:flex gap-6 items-center flex-1 justify-center">

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Calendar, ChevronRight, BookOpen } from 'lucide-react';
 
 export const metadata = {
-    title: 'Le Blog IPMaxTV | Actualités, Tutos et Astuces IPTV',
+    title: 'Le Blog TV4Watch | Actualités, Tutos et Astuces IPTV',
     description: 'Découvrez nos guides complets pour installer, configurer et optimiser votre abonnement IPTV sur Smart TV, Android, Apple et Firestick.',
 };
 
@@ -26,7 +26,7 @@ export default async function BlogIndexPage() {
                         Ressources & Actualités
                     </span>
                     <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
-                        Le Blog <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">IPMaxTV</span>
+                        Le Blog <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">TV4Watch</span>
                     </h1>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
                         Tutoriels complets, comparatifs d'applications et actualités IPTV pour tirer le meilleur de votre abonnement.

@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function FloatingWhatsApp() {
     const [isVisible, setIsVisible] = useState(false);
     const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '1234567890';
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent("Bonjour IPMaxTV, je souhaite avoir plus d'informations.")}`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent("Bonjour TV4Watch, je souhaite avoir plus d'informations.")}`;
 
     useEffect(() => {
         setIsVisible(true);

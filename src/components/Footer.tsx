@@ -4,7 +4,7 @@ export default function Footer() {
             <div className="container mx-auto px-4 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div>
-                        <span className="font-bold text-xl tracking-tight">IPMax<span className="text-primary">TV</span></span>
+                        <span className="font-bold text-xl tracking-tight">TV4<span className="text-primary">Watch</span></span>
                         <p className="mt-4 text-sm text-muted-foreground leading-relaxed">
                             Le meilleur service IPTV premium. Qualité 4K, stabilité garantie et un support client ultra-réactif pour répondre à tous vos besoins en streaming.
                         </p>
@@ -27,7 +27,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-muted-foreground">
-                    <p>© {new Date().getFullYear()} IPMaxTV. Tous droits réservés.</p>
+                    <p>© {new Date().getFullYear()} TV4Watch. Tous droits réservés.</p>
                 </div>
             </div>
         </footer>

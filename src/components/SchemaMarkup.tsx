@@ -32,7 +32,7 @@ export default function SchemaMarkup({
         "sku": product.id,
         "brand": {
             "@type": "Brand",
-            "name": "IPMaxTV"
+            "name": "TV4Watch"
         },
         "offers": {
             "@type": "AggregateOffer",

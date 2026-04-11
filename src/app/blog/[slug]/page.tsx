@@ -16,10 +16,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!article) return { title: 'Article introuvable' };
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ipmaxtv.shop';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tv4watch.com';
 
     return {
-        title: `${article.title} | Blog IPMaxTV`,
+        title: `${article.title} | Blog TV4Watch`,
         description: article.excerpt,
         keywords: article.keywords?.join(', '),
         alternates: {
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: article.title,
             description: article.excerpt,
             url: `${baseUrl}/blog/${article.slug}`,
-            siteName: 'IPMaxTV',
+            siteName: 'TV4Watch',
             images: [
                 {
                     url: article.coverImage.startsWith('http') ? article.coverImage : `${baseUrl}${article.coverImage}`,

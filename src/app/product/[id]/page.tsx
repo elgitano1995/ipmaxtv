@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
     if (!product) {
         return {
-            title: 'Produit Introuvable | IPMaxTV',
+            title: 'Produit Introuvable | TV4Watch',
         };
     }
 
     return {
-        title: `${product.metaTitle || product.name} | IPMaxTV`,
+        title: `${product.metaTitle || product.name} | TV4Watch`,
         description: product.metaDescription || product.description,
         ...(product.keywords && product.keywords.length > 0 && { keywords: product.keywords }),
         alternates: {

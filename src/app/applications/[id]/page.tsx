@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!app) return { title: 'Application introuvable' };
 
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ipmaxtv.shop';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tv4watch.com';
 
     const title = `Codes Downloader Officiels pour ${app.name} - Installation Rapide`;
     const description = `Obtenez le code Downloader officiel (${app.code}) pour installer l'application IPTV ${app.name} sur votre Smart TV, Box Android, Firestick de manière sécurisée et rapide.`;
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title,
             description,
             url: `${baseUrl}/applications/${encodeURIComponent(app.name.toLowerCase().replace(/\s+/g, '-'))}`,
-            siteName: 'IPMaxTV',
+            siteName: 'TV4Watch',
             images: [
                 {
                     url: app.imageUrl || `${baseUrl}/icon.svg`,
@@ -187,7 +187,7 @@ export default async function ApplicationDetailPage({ params }: Props) {
                     <h2 className="text-2xl font-bold mb-6">Abonnement optimisé pour {app.name}</h2>
                     <p className="text-muted-foreground leading-relaxed mb-8">
                         Vous cherchez le meilleur serveur IPTV à utiliser avec <strong>{app.name}</strong> ?
-                        Chez IPMaxTV, nos serveurs sont parfaitement stables et garantis sans coupure sur
+                        Chez TV4Watch, nos serveurs sont parfaitement stables et garantis sans coupure sur
                         tous les lecteurs IPTV, y compris {app.name}. Profitez de la VOD 4K, des chaînes sportives
                         sans interruption et d'un support technique en ligne 24/7.
                     </p>

@@ -3,7 +3,7 @@ import { getProducts, getArticles } from '@/lib/github-api';
 import applicationsData from '../../data/applications.json';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ipmaxtv.shop';
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tv4watch.com';
 
     const products = await getProducts();
 

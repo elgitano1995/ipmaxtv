@@ -1,5 +1,5 @@
 export default function HomePageSchema() {
-    const siteUrl = "https://ipmaxtv.shop";
+    const siteUrl = "https://tv4watch.com";
 
     const schemaData = {
         "@context": "https://schema.org",
@@ -8,8 +8,8 @@ export default function HomePageSchema() {
                 "@type": "WebSite",
                 "@id": `${siteUrl}/#website`,
                 "url": siteUrl,
-                "name": "IPMaxTV",
-                "description": "Découvrez IPMaxTV, le fournisseur IPTV n°1. Plus de 20,000 chaînes, VOD en qualité 4K et FHD, stabilité anti-coupure garantie. Support 24/7 et activation instantanée pour tous vos films et matchs.",
+                "name": "TV4Watch",
+                "description": "Découvrez TV4Watch, le fournisseur IPTV n°1. Plus de 20,000 chaînes, VOD en qualité 4K et FHD, stabilité anti-coupure garantie. Support 24/7 et activation instantanée pour tous vos films et matchs.",
                 "publisher": {
                     "@id": `${siteUrl}/#organization`
                 },
@@ -18,7 +18,7 @@ export default function HomePageSchema() {
             {
                 "@type": "Organization",
                 "@id": `${siteUrl}/#organization`,
-                "name": "IPMaxTV",
+                "name": "TV4Watch",
                 "url": siteUrl,
                 "logo": {
                     "@type": "ImageObject",
@@ -28,7 +28,7 @@ export default function HomePageSchema() {
                     "contentUrl": `${siteUrl}/icon.svg`,
                     "width": 512,
                     "height": 512,
-                    "caption": "IPMaxTV Logo"
+                    "caption": "TV4Watch Logo"
                 },
                 "image": {
                     "@id": `${siteUrl}/#/schema/logo/image/`

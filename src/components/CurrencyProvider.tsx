@@ -17,7 +17,7 @@ export function CurrencyProvider({ children }: { children: React.ReactNode }) {
     useEffect(() => {
         setIsMounted(true);
         // Load preference from localStorage
-        const stored = localStorage.getItem('ipmaxtv_currency');
+        const stored = localStorage.getItem('tv4watch_currency');
         if (stored && CURRENCIES[stored as CurrencyCode]) {
             setCurrencyState(stored as CurrencyCode);
         } else {
@@ -28,7 +28,7 @@ export function CurrencyProvider({ children }: { children: React.ReactNode }) {
 
     const setCurrency = (code: CurrencyCode) => {
         setCurrencyState(code);
-        localStorage.setItem('ipmaxtv_currency', code);
+        localStorage.setItem('tv4watch_currency', code);
     };
 
     // Prevent hydration mismatch by blocking render or returning a default 
