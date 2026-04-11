@@ -115,7 +115,7 @@ export default async function Home() {
                 if (categoryProducts.length === 0) return null;
 
                 return (
-                  <div key={category.id}>
+                  <div key={category.id} id={`category-${category.id}`}>
                     <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
                       <span className="w-2 h-8 bg-primary rounded-full" />
                       {category.name}

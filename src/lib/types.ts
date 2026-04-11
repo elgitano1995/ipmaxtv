@@ -24,6 +24,7 @@ export interface Category {
     id: string;
     name: string;
     isVisible: boolean;
+    showInHeader?: boolean;
     order: number;
 }
 

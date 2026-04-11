@@ -75,6 +75,24 @@ export async function addCategoryAction(category: Category) {
         }
 
         revalidatePath('/', 'layout');
+        revalidatePath('/', 'layout');
+        return { success: true };
+    } catch (error: any) {
+        return { success: false, error: error.message };
+    }
+}
+
+export async function deleteCategoryAction(categoryId: string) {
+    try {
+        const categories = await getCategories();
+        const newCategories = categories.filter((c) => c.id !== categoryId);
+
+        const success = await saveCategories(newCategories);
+        if (!success) {
+            return { success: false, error: 'Failed to delete category.' };
+        }
+
+        revalidatePath('/', 'layout');
         return { success: true };
     } catch (error: any) {
         return { success: false, error: error.message };

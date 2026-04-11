@@ -2,8 +2,8 @@
 
 import { useState, useEffect, useId } from 'react';
 import { Category } from '@/lib/types';
-import { addCategoryAction, reorderCategoriesAction } from '@/app/actions/admin-actions';
-import { Plus, GripVertical, Trash2, Eye, EyeOff } from 'lucide-react';
+import { addCategoryAction, reorderCategoriesAction, deleteCategoryAction } from '@/app/actions/admin-actions';
+import { Plus, GripVertical, Trash2, Eye, EyeOff, Pencil, Check, X, PanelTop } from 'lucide-react';
 import {
     DndContext,
     closestCenter,
@@ -22,10 +22,21 @@ import {
 } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 
-function SortableCategoryItem({ category, onToggle, onDelete }: { category: Category, onToggle: (c: Category) => void, onDelete: (id: string) => void }) {
+function SortableCategoryItem({ category, onToggleVisibility, onToggleHeader, onDelete, onUpdateName }: { category: Category, onToggleVisibility: (c: Category) => void, onToggleHeader: (c: Category) => void, onDelete: (id: string) => void, onUpdateName: (id: string, newName: string) => void }) {
     const { attributes, listeners, setNodeRef, transform, transition } = useSortable({ id: category.id });
+    const [isEditing, setIsEditing] = useState(false);
+    const [editName, setEditName] = useState(category.name);
 
     const style = { transform: CSS.Transform.toString(transform), transition };
+
+    const handleSave = () => {
+        if(editName.trim() && editName !== category.name) {
+            onUpdateName(category.id, editName.trim());
+        } else {
+            setEditName(category.name);
+        }
+        setIsEditing(false);
+    }
 
     return (
         <div ref={setNodeRef} style={style} className="flex items-center justify-between p-3 bg-card border border-border rounded-xl mb-2 group">
@@ -33,11 +44,30 @@ function SortableCategoryItem({ category, onToggle, onDelete }: { category: Cate
                 <button {...attributes} {...listeners} className="cursor-grab text-muted-foreground hover:text-foreground">
                     <GripVertical className="w-4 h-4" />
                 </button>
-                <span className="font-medium text-sm">{category.name}</span>
+                {isEditing ? (
+                    <div className="flex items-center gap-2 flex-1 relative z-50">
+                        <input autoFocus value={editName} onChange={e => setEditName(e.target.value)} onKeyDown={e => e.key === 'Enter' && handleSave()} className="flex-1 bg-background border border-border rounded-md px-2 py-1 text-sm focus:ring-1 focus:ring-primary outline-none" />
+                        <button onClick={handleSave} className="p-1 text-emerald-500 hover:bg-emerald-500/10 rounded-md transition-colors"><Check className="w-4 h-4" /></button>
+                        <button onClick={() => { setEditName(category.name); setIsEditing(false); }} className="p-1 text-rose-500 hover:bg-rose-500/10 rounded-md transition-colors"><X className="w-4 h-4" /></button>
+                    </div>
+                ) : (
+                    <span className="font-medium text-sm flex-1">{category.name}</span>
+                )}
             </div>
             <div className="flex items-center gap-2">
-                <button onClick={() => onToggle(category)} className="p-1.5 text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors" title="Visibilité site">
+                {!isEditing && (
+                    <button onClick={() => setIsEditing(true)} className="p-1.5 text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors" title="Renommer">
+                        <Pencil className="w-4 h-4" />
+                    </button>
+                )}
+                <button onClick={() => onToggleHeader(category)} className={`p-1.5 rounded-md transition-colors ${category.showInHeader ? 'text-primary bg-primary/10' : 'text-muted-foreground hover:text-foreground hover:bg-muted'}`} title="Afficher dans le menu">
+                    <PanelTop className="w-4 h-4" />
+                </button>
+                <button onClick={() => onToggleVisibility(category)} className="p-1.5 text-muted-foreground hover:text-foreground hover:bg-muted rounded-md transition-colors" title="Visibilité section page d'accueil">
                     {category.isVisible ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
+                </button>
+                <button onClick={() => { if(confirm('Êtes-vous sûr de vouloir supprimer cette catégorie ?')) onDelete(category.id); }} className="p-1.5 text-rose-500/70 hover:text-rose-500 hover:bg-rose-500/10 rounded-md transition-colors" title="Supprimer">
+                    <Trash2 className="w-4 h-4" />
                 </button>
             </div>
         </div>
@@ -66,6 +96,7 @@ export default function CategoryManager({ initialCategories }: { initialCategori
             id: crypto.randomUUID(),
             name: newCatName.trim(),
             isVisible: true,
+            showInHeader: false,
             order: categories.length
         };
 
@@ -86,9 +117,33 @@ export default function CategoryManager({ initialCategories }: { initialCategori
         }
     };
 
+    const handleToggleHeader = async (cat: Category) => {
+        const updated = { ...cat, showInHeader: !cat.showInHeader };
+        const res = await addCategoryAction(updated);
+        if (res.success) {
+            setCategories(categories.map(c => c.id === cat.id ? updated : c));
+        }
+    };
+
+    const handleUpdateName = async (id: string, newName: string) => {
+        const cat = categories.find(c => c.id === id);
+        if (!cat) return;
+        const updated = { ...cat, name: newName };
+        const res = await addCategoryAction(updated);
+        if (res.success) {
+            setCategories(categories.map(c => c.id === id ? updated : c));
+        } else {
+            alert("Erreur de modification : " + res.error);
+        }
+    };
+
     const handleDelete = async (id: string) => {
-        // Basic array filter, in realistic scenario needs backend delete too.
-        // For demo, we just remove and re-sync order.
+        const res = await deleteCategoryAction(id);
+        if (res.success) {
+            setCategories(categories.filter(c => c.id !== id));
+        } else {
+            alert("Erreur de suppression : " + res.error);
+        }
     };
 
     const handleDragEnd = async (event: DragEndEvent) => {
@@ -131,8 +186,10 @@ export default function CategoryManager({ initialCategories }: { initialCategori
                                 <SortableCategoryItem
                                     key={cat.id}
                                     category={cat}
-                                    onToggle={handleToggle}
+                                    onToggleVisibility={handleToggle}
+                                    onToggleHeader={handleToggleHeader}
                                     onDelete={handleDelete}
+                                    onUpdateName={handleUpdateName}
                                 />
                             ))}
                         </div>
