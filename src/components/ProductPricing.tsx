@@ -20,7 +20,7 @@ export default function ProductPricing({ product }: { product: Product }) {
     };
 
     // Hardcode fallback WhatsApp logic or use env
-    const WHATSAPP_NUMBER = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '212657901282';
+    const WHATSAPP_NUMBER = '212657901282';
 
     const handleOrder = () => {
         if (!selectedVariant) return;
