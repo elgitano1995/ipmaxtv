@@ -634,5 +634,29 @@
     "isStable": true,
     "metaTitle": "Abonnement Strong 8K IPTV – Streaming Ultra HD 4K/8K Stable et Sans Coupure",
     "metaDescription": "Découvrez Strong 8K IPTV avec +30 000 chaînes, films et séries en 4K/8K. Serveurs rapides, streaming fluide sans coupure, compatible Smart TV, Android et TV Box."
+  },
+  {
+    "id": "8ffbb309-5990-47d4-a654-1ac8e80b7db4",
+    "name": "test",
+    "categoryId": "0d2626f2-97e9-477d-a8f9-5346ff029d72",
+    "description": "test",
+    "imageUrl": "",
+    "features": [
+      "test"
+    ],
+    "keywords": [
+      "test"
+    ],
+    "variants": [
+      {
+        "id": "36228dba-a44b-4262-8133-8fb66a72c211",
+        "duration": "12 mois",
+        "price": "20 euro"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": false,
+    "metaTitle": "test",
+    "metaDescription": "test"
   }
 ]
