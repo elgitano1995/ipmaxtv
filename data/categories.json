@@ -8,7 +8,7 @@
   {
     "id": "0d2626f2-97e9-477d-a8f9-5346ff029d72",
     "name": "Lecteur",
-    "isVisible": false,
+    "isVisible": true,
     "order": 1
   }
 ]
