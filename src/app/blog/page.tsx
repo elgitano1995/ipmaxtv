@@ -6,6 +6,9 @@ import { Calendar, ChevronRight, BookOpen } from 'lucide-react';
 export const metadata = {
     title: 'Le Blog TV4Watch | Actualités, Tutos et Astuces IPTV',
     description: 'Découvrez nos guides complets pour installer, configurer et optimiser votre abonnement IPTV sur Smart TV, Android, Apple et Firestick.',
+    alternates: {
+        canonical: '/blog',
+    },
 };
 
 export const dynamic = 'force-dynamic';

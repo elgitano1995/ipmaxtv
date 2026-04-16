@@ -7,6 +7,9 @@ import { Info } from 'lucide-react';
 export const metadata: Metadata = {
     title: 'Applications & Codes Downloader | TV4Watch',
     description: 'Une liste complète des codes Downloader pour toutes vos applications IPTV préférées. Entrez simplement le code sur votre appareil.',
+    alternates: {
+        canonical: '/applications',
+    },
 };
 
 export default async function ApplicationsPage() {
