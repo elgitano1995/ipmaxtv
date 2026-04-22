@@ -3,7 +3,9 @@ import fs from 'fs/promises';
 import path from 'path';
 
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO = process.env.GITHUB_REPO; // Format: username/repo
+// Auto-correct the old repository name if it's still present in Vercel Environment variables
+const rawRepo = process.env.GITHUB_REPO;
+const GITHUB_REPO = rawRepo === 'elgitano1995/ipmaxtv' ? 'elgitano1995/tv4watch-site' : rawRepo;
 const BRANCH = process.env.GITHUB_BRANCH || 'v0';
 
 /**
