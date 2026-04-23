@@ -49,6 +49,7 @@ export default function ProductCard({ product }: { product: Product }) {
                             alt={`Abonnement IPTV ${product.name} 4k FHD Sans Coupure au Maroc et en France`}
                             width={400}
                             height={300}
+                            unoptimized
                             className="w-full h-full object-contain filter drop-shadow-lg transition-transform duration-500 group-hover:scale-110"
                         />
                     ) : (
