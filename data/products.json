@@ -584,5 +584,61 @@
     "isStable": true,
     "metaTitle": "IBO Player Pro – Lecteur IPTV Premium Compatible Smart TV, Android et TV Box",
     "metaDescription": "Découvrez IBO Player Pro, lecteur IPTV rapide et performant pour Smart TV comme Samsung et LG , Android TV et TV Box. Interface moderne, installation facile et lecture fluide."
+  },
+  {
+    "id": "57234164-0e97-4ba8-948d-aa461afc537b",
+    "name": "IBO Player ",
+    "categoryId": "faa01f1e-4356-4843-a208-8f10b8a654f2",
+    "description": "IBO Player est une application IPTV performante conçue pour lire vos abonnements IPTV en toute simplicité. Grâce à son interface moderne et intuitive, elle permet d’accéder rapidement à vos chaînes TV en direct, films, séries et contenus VOD avec une excellente fluidité.\n\nL’application est compatible avec de nombreux appareils : Smart TV Samsung, LG, Android TV, TV Box, Fire TV Stick et appareils Android. Elle offre une navigation rapide, un chargement efficace des playlists et une expérience utilisateur agréable.\n\nIBO Player est idéal pour les utilisateurs qui recherchent un lecteur IPTV stable, élégant et facile à configurer.",
+    "imageUrl": "https://i.postimg.cc/Z50VkPBt/56369044897206e4d912a5e80ea66031-icon.png",
+    "features": [
+      "Points forts:",
+      "✔ Interface moderne et conviviale",
+      "✔ Compatible Smart TV et Android",
+      "✔ Lecture fluide des chaînes live et VOD",
+      "✔ Support playlists M3U et Xtream Codes",
+      "✔ Installation rapide et simple",
+      "✔ Navigation rapide",
+      "✔ Excellente stabilité",
+      "⚙️ Caractéristiques techniques:",
+      "📱 Application : Lecteur IPTV",
+      "📺 Compatibilité : Samsung, LG, Android TV, TV Box, Fire Stick",
+      "📂 Formats supportés : M3U / Xtream Codes / Portail",
+      "🎥 Qualité : HD / Full HD / 4K selon source",
+      "🌐 Connexion : Internet requis",
+      "🔄 Mise à jour : Versions officielles régulières",
+      "🔧 Instructions simples d’installation:",
+      "Ouvrez le store de votre téléviseur ou appareil.",
+      "Recherchez IBO Player.",
+      "Téléchargez et installez l’application.",
+      "Lancez l’application après installation.",
+      "Prenez une photo de l’écran affichant :",
+      "MAC Address",
+      "Device ID",
+      "Envoyez-nous la photo pour l’activation.",
+      "📌 Après activation, vous recevrez la configuration rapidement."
+    ],
+    "keywords": [
+      "ibo player",
+      "ibo player maroc",
+      "lecteur iptv smart tv",
+      "ibo player samsung lg",
+      "application iptv android tv",
+      "ibo player activation",
+      "lecteur iptv premium",
+      "iptv player maroc",
+      "ibo tv box"
+    ],
+    "variants": [
+      {
+        "id": "8e6f6c9e-6d37-4ef9-a6fc-3f4b5d2e673c",
+        "duration": "12 Mois ",
+        "price": "50"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "IBO Player – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
+    "metaDescription": "Téléchargez IBO Player, lecteur IPTV rapide et performant compatible Samsung, LG, Android TV et TV Box. Installation facile, interface moderne et streaming fluide."
   }
 ]
