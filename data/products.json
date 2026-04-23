@@ -640,5 +640,51 @@
     "isStable": true,
     "metaTitle": "IBO Player – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
     "metaDescription": "Téléchargez IBO Player, lecteur IPTV rapide et performant compatible Samsung, LG, Android TV et TV Box. Installation facile, interface moderne et streaming fluide."
+  },
+  {
+    "id": "df1cb888-d3a7-453b-a2e2-34fae3bc7f05",
+    "name": "Hot IPTV Player ",
+    "categoryId": "faa01f1e-4356-4843-a208-8f10b8a654f2",
+    "description": "Hot IPTV Player est une application IPTV moderne et performante conçue pour offrir une expérience de streaming rapide, fluide et intuitive. Grâce à son interface élégante, elle permet d’accéder facilement à vos chaînes TV en direct, films, séries et contenus VOD.\n\nCompatible avec plusieurs plateformes, Hot IPTV Player fonctionne sur Roku, Smart TV Samsung, LG TV, Android TV, TV Box et appareils Android. Son optimisation avancée garantit une navigation rapide, un chargement efficace et une excellente qualité de lecture.\n\nHot IPTV Player est une solution idéale pour les utilisateurs souhaitant profiter de leur abonnement IPTV sur plusieurs appareils avec simplicité et performance.\n\n🔧 Instructions simples d’installation\nOuvrez le store de votre appareil :\nRoku Store\nLG TV Store\nSamsung TV Store\nGoogle Play Store\nRecherchez Hot IPTV Player.\nTéléchargez et installez l’application.\nLancez l’application après installation.\nPrenez une photo de l’écran affichant :\nMAC Address\nDevice ID\nEnvoyez-nous la photo pour l’activation et la configuration.\n\n📌 Après activation, vous recevrez vos accès rapidement.",
+    "imageUrl": "https://i.postimg.cc/bJzZWhLg/hpv.png",
+    "features": [
+      "⚡ Points forts",
+      "✔ Compatible Roku, Samsung, LG et Android TV",
+      "✔ Interface moderne et facile à utiliser",
+      "✔ Lecture fluide des chaînes live et VOD",
+      "✔ Support playlists IPTV et portails",
+      "✔ Installation rapide et simple",
+      "✔ Navigation rapide et stable",
+      "✔ Excellente compatibilité multi-appareils",
+      "⚙️ Caractéristiques techniques",
+      "📱 Application : Lecteur IPTV",
+      "📺 Compatibilité : Roku, Samsung TV, LG TV, Android TV, TV Box",
+      "📂 Formats : M3U / Xtream / Portail selon version",
+      "🎥 Qualité : HD / Full HD / 4K selon source",
+      "🌐 Connexion : Internet requis",
+      "🔄 Mise à jour : Versions officielles régulières"
+    ],
+    "keywords": [
+      "hot iptv player",
+      "hot player iptv",
+      "hot iptv maroc",
+      "lecteur iptv samsung lg",
+      "hot player roku",
+      "application iptv android tv",
+      "lecteur iptv premium",
+      "hot player activation",
+      "iptv smart tv maroc"
+    ],
+    "variants": [
+      {
+        "id": "9029b3ac-8fc9-435a-80f9-6fbe9cfccc4a",
+        "duration": "12 Mois",
+        "price": "59"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "Hot IPTV Player – Lecteur IPTV Premium pour Smart TV, Roku, Android TV et TV Box",
+    "metaDescription": "Téléchargez Hot IPTV Player compatible Roku, Samsung, LG et Android TV. Lecteur IPTV rapide, moderne et facile à installer pour chaînes live et VOD."
   }
 ]
