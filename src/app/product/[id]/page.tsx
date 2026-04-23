@@ -64,7 +64,7 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                 <div className="space-y-8">
                     <div className="w-full h-80 md:h-[500px] relative bg-card rounded-3xl border border-border shadow-2xl overflow-hidden flex items-center justify-center">
                         {product.imageUrl ? (
-                            <Image src={product.imageUrl} alt={product.name} fill unoptimized className="object-cover" />
+                            <Image src={product.imageUrl} alt={product.name} fill className="object-cover" />
                         ) : (
                             <div className="text-muted-foreground/50 text-xl font-medium tracking-widest uppercase">
                                 {product.name}
