@@ -5,5 +5,12 @@
     "isVisible": true,
     "order": 0,
     "showInHeader": true
+  },
+  {
+    "id": "faa01f1e-4356-4843-a208-8f10b8a654f2",
+    "name": "PLAYERS",
+    "isVisible": true,
+    "showInHeader": false,
+    "order": 1
   }
 ]
