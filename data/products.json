@@ -686,5 +686,61 @@
     "isStable": true,
     "metaTitle": "Hot IPTV Player – Lecteur IPTV Premium pour Smart TV, Roku, Android TV et TV Box",
     "metaDescription": "Téléchargez Hot IPTV Player compatible Roku, Samsung, LG et Android TV. Lecteur IPTV rapide, moderne et facile à installer pour chaînes live et VOD."
+  },
+  {
+    "id": "6c60d5e1-83f2-4433-9423-6127eacdc42e",
+    "name": "SmartOne Player",
+    "categoryId": "faa01f1e-4356-4843-a208-8f10b8a654f2",
+    "description": "SmartOne IPTV est une application IPTV moderne et performante conçue pour lire vos abonnements IPTV avec simplicité et fluidité. Grâce à son interface intuitive, elle permet d’accéder rapidement aux chaînes TV en direct, films, séries et contenus à la demande dans une excellente qualité.\n\nCompatible avec plusieurs appareils, SmartOne IPTV fonctionne parfaitement sur Smart TV Samsung, LG, Android TV, TV Box et appareils Android compatibles. Son système optimisé assure une navigation rapide, un chargement fluide des playlists et une expérience agréable au quotidien.\n\nSmartOne IPTV est une excellente solution pour les utilisateurs recherchant un lecteur IPTV stable, moderne et simple à configurer.",
+    "imageUrl": "https://i.postimg.cc/DzwBq8bB/smartone-iptv.webp",
+    "features": [
+      "⚡ Points forts",
+      "✔ Compatible Samsung, LG et Android TV",
+      "✔ Interface moderne et conviviale",
+      "✔ Lecture fluide des chaînes live et VOD",
+      "✔ Support playlists M3U et Xtream Codes",
+      "✔ Installation rapide et simple",
+      "✔ Navigation rapide et stable",
+      "✔ Excellente performance",
+      "⚙️ Caractéristiques techniques:",
+      "📱 Application : Lecteur IPTV",
+      "📺 Compatibilité : Samsung, LG, Android TV, TV Box",
+      "📂 Formats : M3U / Xtream Codes / Portail",
+      "🎥 Qualité : HD / Full HD / 4K selon source",
+      "🌐 Connexion : Internet requis",
+      "🔄 Mise à jour : Versions officielles régulières",
+      "🔧 Instructions simples d’installation:",
+      "Ouvrez le store de votre téléviseur ou appareil.",
+      "Recherchez SmartOne IPTV.",
+      "Téléchargez et installez l’application.",
+      "Lancez l’application après installation.",
+      "Prenez une photo de l’écran affichant :",
+      "MAC Address",
+      "Device ID",
+      "Envoyez-nous la photo pour l’activation et la configuration.",
+      "📌 Après activation, vous recevrez vos accès rapidement."
+    ],
+    "keywords": [
+      "smartone iptv",
+      "smartone player",
+      "smartone iptv maroc",
+      "lecteur iptv smart tv",
+      "smartone samsung lg",
+      "application iptv android tv",
+      "smartone activation",
+      "lecteur iptv premium",
+      "iptv smart tv maroc"
+    ],
+    "variants": [
+      {
+        "id": "0eedfa44-9224-4534-a71a-86475053d23f",
+        "duration": "12 Mois",
+        "price": "69"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": true,
+    "metaTitle": "SmartOne IPTV – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
+    "metaDescription": "Téléchargez SmartOne IPTV compatible Samsung, LG, VIDAA, Android TV et TV Box. Lecteur IPTV rapide, moderne et facile à configurer pour chaînes live et VOD."
   }
 ]
