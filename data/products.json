@@ -742,5 +742,53 @@
     "isStable": true,
     "metaTitle": "SmartOne IPTV – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
     "metaDescription": "Téléchargez SmartOne IPTV compatible Samsung, LG, VIDAA, Android TV et TV Box. Lecteur IPTV rapide, moderne et facile à configurer pour chaînes live et VOD."
+  },
+  {
+    "id": "026b892a-2b16-47fc-b08e-9380916c9a2d",
+    "name": "Abonnement Plume4K IPTV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "L’abonnement Plume4K IPTV vous permet de profiter de nombreuses chaînes TV, sports en direct, films et séries en qualité 4K / Full HD. Service rapide et stable, compatible avec Smart TV, Android, TV Box, smartphone et PC. Installation facile et utilisation simple pour un divertissement complet.\n\nDownload the Plume4K app:\nwww.aftv.news/382985\nDownloader: 382985",
+    "imageUrl": "https://i.postimg.cc/CxJRc5Fs/plume-4-k-screenshot.avif",
+    "features": [
+      "Caractéristiques techniques",
+      "📡 Type : Abonnement IPTV",
+      "🎥 Qualité : 4K / Full HD / HD",
+      "🌍 Contenu : Chaînes TV + VOD",
+      "⚡ Serveurs : Stables et optimisés",
+      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
+      "🔄 Mise à jour : Contenu régulièrement actualisé"
+    ],
+    "keywords": [
+      "plume4k iptv",
+      "abonnement plume4k",
+      "iptv 4k maroc",
+      "iptv premium stable",
+      "iptv sport 4k",
+      "iptv vod films séries",
+      "plume4k code activation",
+      "iptv smart tv android",
+      "abonnement iptv rapide"
+    ],
+    "variants": [
+      {
+        "id": "c456e9d5-eac3-418a-8da0-a5904506f93b",
+        "duration": "12 Mois",
+        "price": "149"
+      },
+      {
+        "id": "61e5e7a9-f8d7-4448-9465-21f8e39a1604",
+        "duration": "6 Mois ",
+        "price": "75"
+      },
+      {
+        "id": "d530f621-d2f9-4373-8070-de6451a15f6e",
+        "duration": "3 Mois ",
+        "price": "49"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": false,
+    "metaTitle": "Abonnement Plume4K IPTV – Streaming 4K Stable et Rapide avec Chaînes Premium",
+    "metaDescription": "Profitez de Plume4K IPTV avec chaînes internationales, sports en direct et VOD en 4K. Service rapide, stable et compatible Smart TV, Android et TV Box."
   }
 ]
