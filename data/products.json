@@ -371,55 +371,6 @@
     "order": 6
   },
   {
-    "id": "026b892a-2b16-47fc-b08e-9380916c9a2d",
-    "name": "Abonnement Plume4K IPTV ",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "L’abonnement Plume4K IPTV vous permet de profiter de nombreuses chaînes TV, sports en direct, films et séries en qualité 4K / Full HD. Service rapide et stable, compatible avec Smart TV, Android, TV Box, smartphone et PC. Installation facile et utilisation simple pour un divertissement complet.\n\nDownload the Plume4K app:\nwww.aftv.news/382985\nDownloader: 382985",
-    "imageUrl": "https://i.postimg.cc/CxJRc5Fs/plume-4-k-screenshot.avif",
-    "features": [
-      "Caractéristiques techniques",
-      "📡 Type : Abonnement IPTV",
-      "🎥 Qualité : 4K / Full HD / HD",
-      "🌍 Contenu : Chaînes TV + VOD",
-      "⚡ Serveurs : Stables et optimisés",
-      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
-      "🔄 Mise à jour : Contenu régulièrement actualisé"
-    ],
-    "keywords": [
-      "plume4k iptv",
-      "abonnement plume4k",
-      "iptv 4k maroc",
-      "iptv premium stable",
-      "iptv sport 4k",
-      "iptv vod films séries",
-      "plume4k code activation",
-      "iptv smart tv android",
-      "abonnement iptv rapide"
-    ],
-    "variants": [
-      {
-        "id": "c456e9d5-eac3-418a-8da0-a5904506f93b",
-        "duration": "12 Mois",
-        "price": "149"
-      },
-      {
-        "id": "61e5e7a9-f8d7-4448-9465-21f8e39a1604",
-        "duration": "6 Mois ",
-        "price": "75"
-      },
-      {
-        "id": "d530f621-d2f9-4373-8070-de6451a15f6e",
-        "duration": "3 Mois ",
-        "price": "49"
-      }
-    ],
-    "isBestSeller": true,
-    "isStable": false,
-    "metaTitle": "Abonnement Plume4K IPTV – Streaming 4K Stable et Rapide avec Chaînes Premium",
-    "metaDescription": "Profitez de Plume4K IPTV avec chaînes internationales, sports en direct et VOD en 4K. Service rapide, stable et compatible Smart TV, Android et TV Box.",
-    "order": 7
-  },
-  {
     "id": "8816c02f-6d13-435f-975b-9db0e24906d7",
     "name": "ATLASPRO TV : L'abonnement IPTV Premium 4K",
     "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
@@ -466,7 +417,7 @@
       "IPTV Android TV",
       "Atlas Pro TV Gratuit."
     ],
-    "order": 8
+    "order": 7
   },
   {
     "id": "0adad292-fc22-44cd-8583-be8f928e9e16",
@@ -505,7 +456,7 @@
     "isStable": false,
     "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
     "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !",
-    "order": 9
+    "order": 8
   },
   {
     "id": "5fc04379-2085-4124-a343-9a7476356f69",
@@ -553,7 +504,7 @@
     "isStable": true,
     "metaTitle": "Win Player IPTV Officiel : Abonnement Premium 4K & Stabilité Garantie",
     "metaDescription": "Profitez de Win Player (WinPlus), l'abonnement IPTV le plus stable pour vos chaînes et VOD en 4K. +6000 chaînes sans coupure sur tous vos appareils. Livraison rapide et support 24/7. Abonnez-vous dès maintenant !",
-    "order": 10
+    "order": 9
   },
   {
     "id": "ce047b62-2808-44cf-90cb-94294532acf8",
@@ -593,7 +544,7 @@
     "isStable": true,
     "metaTitle": "Abonnement DINO TV Officiel : IPTV Premium 4K & VOD Sans Coupure",
     "metaDescription": "Découvrez DINO TV, l'abonnement IPTV de référence. Accédez à +10 000 chaînes mondiales et VOD en 4K. Serveur stable, zapping rapide et compatibilité totale. Profitez du meilleur prix et d'une activation instantanée !",
-    "order": 11
+    "order": 10
   },
   {
     "id": "565de105-5413-49c4-a822-3d9346547d88",
@@ -637,6 +588,55 @@
     "isStable": true,
     "metaTitle": "TREX IPTV Officiel : Abonnement Premium 4K, Stable & Sans Coupure",
     "metaDescription": "Découvrez pourquoi TREX IPTV est le meilleur choix. Accédez à +10 000 chaînes mondiales et VOD en 4K avec une stabilité totale. Compatible tous supports. Activation immédiate et support 24/7 !",
+    "order": 11
+  },
+  {
+    "id": "026b892a-2b16-47fc-b08e-9380916c9a2d",
+    "name": "Abonnement Plume4K IPTV ",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "L’abonnement Plume4K IPTV vous permet de profiter de nombreuses chaînes TV, sports en direct, films et séries en qualité 4K / Full HD. Service rapide et stable, compatible avec Smart TV, Android, TV Box, smartphone et PC. Installation facile et utilisation simple pour un divertissement complet.\n\nDownload the Plume4K app:\nwww.aftv.news/382985\nDownloader: 382985",
+    "imageUrl": "https://i.postimg.cc/CxJRc5Fs/plume-4-k-screenshot.avif",
+    "features": [
+      "Caractéristiques techniques",
+      "📡 Type : Abonnement IPTV",
+      "🎥 Qualité : 4K / Full HD / HD",
+      "🌍 Contenu : Chaînes TV + VOD",
+      "⚡ Serveurs : Stables et optimisés",
+      "📱 Compatibilité : Smart TV, Android TV, TV Box, iOS, PC",
+      "🔄 Mise à jour : Contenu régulièrement actualisé"
+    ],
+    "keywords": [
+      "plume4k iptv",
+      "abonnement plume4k",
+      "iptv 4k maroc",
+      "iptv premium stable",
+      "iptv sport 4k",
+      "iptv vod films séries",
+      "plume4k code activation",
+      "iptv smart tv android",
+      "abonnement iptv rapide"
+    ],
+    "variants": [
+      {
+        "id": "c456e9d5-eac3-418a-8da0-a5904506f93b",
+        "duration": "12 Mois",
+        "price": "149"
+      },
+      {
+        "id": "61e5e7a9-f8d7-4448-9465-21f8e39a1604",
+        "duration": "6 Mois ",
+        "price": "75"
+      },
+      {
+        "id": "d530f621-d2f9-4373-8070-de6451a15f6e",
+        "duration": "3 Mois ",
+        "price": "49"
+      }
+    ],
+    "isBestSeller": true,
+    "isStable": false,
+    "metaTitle": "Abonnement Plume4K IPTV – Streaming 4K Stable et Rapide avec Chaînes Premium",
+    "metaDescription": "Profitez de Plume4K IPTV avec chaînes internationales, sports en direct et VOD en 4K. Service rapide, stable et compatible Smart TV, Android et TV Box.",
     "order": 12
   },
   {
