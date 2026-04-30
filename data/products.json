@@ -114,6 +114,45 @@
     "order": 1
   },
   {
+    "id": "2007a7bf-9d77-4a39-b6e5-3474ee98d58a",
+    "name": "Dream 4K Officiel : Abonnement Premium",
+    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
+    "description": "Dream 4K est l'un des services IPTV les plus performants du marché, offrant une expérience de divertissement inégalée. Grâce à une infrastructure serveur robuste, il propose un accès fluide à une multitude de chaînes mondiales et une bibliothèque VOD exhaustive. Conçu spécifiquement pour les amateurs de haute définition, Dream 4K garantit une qualité d'image cristalline et une stabilité exemplaire pour tous vos programmes préférés.",
+    "imageUrl": "https://i.postimg.cc/x1PTTqGZ/dream4k-v2-2-2-smarters-screenshot.avif",
+    "features": [
+      "Qualité d'Image Exceptionnelle : Supporte la diffusion en 4K, Ultra HD et Full HD pour une clarté visuelle optimale.",
+      "Vaste Sélection de Chaînes : Accès à des milliers de chaînes internationales en direct (Sport, Cinéma, Divertissement, News).",
+      "Bibliothèque VOD Massive : Des milliers de films et séries récents mis à jour régulièrement pour ne jamais manquer de nouveautés.",
+      "Serveurs Hautes Performances : Technologie anti-buffering assurant une stabilité maximale, même lors des grands événements en direct.",
+      "Compatibilité Étendue : Fonctionne sur tous les supports (Smart TV, Android Box, Firestick, Smartphones, Tablettes et Mag).",
+      "Guide des Programmes (EPG) : Interface conviviale avec guide complet pour consulter les horaires de vos émissions."
+    ],
+    "keywords": [
+      "Dream 4K",
+      "Abonnement Dream 4K",
+      "IPTV 4K Stable",
+      "Meilleur IPTV France",
+      "Code Dream 4K",
+      "Serveur IPTV Rapide",
+      "VOD Films et Séries",
+      "IPTV sans coupure",
+      "Smart TV IPTV",
+      "Dream 4K Officiel"
+    ],
+    "variants": [
+      {
+        "id": "e7916bee-9688-4c52-8005-727a05ee9159",
+        "duration": "12 Mois ",
+        "price": "229 dh"
+      }
+    ],
+    "isBestSeller": false,
+    "isStable": true,
+    "metaTitle": "Dream 4K Officiel : Abonnement Premium Stable & VOD 4K",
+    "metaDescription": "Découvrez Dream 4K, l'abonnement IPTV leader pour vos chaînes et VOD en Ultra HD. Profitez d'une stabilité totale sans coupure sur tous vos appareils. Livraison instantanée et support 24/7. Abonnez-vous maintenant !",
+    "order": 2
+  },
+  {
     "id": "93487053-7980-4b56-9491-8d9be423f1e3",
     "name": "IBO PLAYER PRO",
     "categoryId": "faa01f1e-4356-4843-a208-8f10b8a654f2",
@@ -168,7 +207,7 @@
     "isStable": true,
     "metaTitle": "IBO Player Pro – Lecteur IPTV Premium Compatible Smart TV, Android et TV Box",
     "metaDescription": "Découvrez IBO Player Pro, lecteur IPTV rapide et performant pour Smart TV comme Samsung et LG , Android TV et TV Box. Interface moderne, installation facile et lecture fluide.",
-    "order": 2
+    "order": 3
   },
   {
     "id": "57234164-0e97-4ba8-948d-aa461afc537b",
@@ -225,7 +264,7 @@
     "isStable": true,
     "metaTitle": "IBO Player – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
     "metaDescription": "Téléchargez IBO Player, lecteur IPTV rapide et performant compatible Samsung, LG, Android TV et TV Box. Installation facile, interface moderne et streaming fluide.",
-    "order": 3
+    "order": 4
   },
   {
     "id": "df1cb888-d3a7-453b-a2e2-34fae3bc7f05",
@@ -272,7 +311,7 @@
     "isStable": true,
     "metaTitle": "Hot IPTV Player – Lecteur IPTV Premium pour Smart TV, Roku, Android TV et TV Box",
     "metaDescription": "Téléchargez Hot IPTV Player compatible Roku, Samsung, LG et Android TV. Lecteur IPTV rapide, moderne et facile à installer pour chaînes live et VOD.",
-    "order": 4
+    "order": 5
   },
   {
     "id": "6c60d5e1-83f2-4433-9423-6127eacdc42e",
@@ -329,7 +368,7 @@
     "isStable": true,
     "metaTitle": "SmartOne IPTV – Lecteur IPTV Premium pour Smart TV, Android TV et TV Box",
     "metaDescription": "Téléchargez SmartOne IPTV compatible Samsung, LG, VIDAA, Android TV et TV Box. Lecteur IPTV rapide, moderne et facile à configurer pour chaînes live et VOD.",
-    "order": 5
+    "order": 6
   },
   {
     "id": "026b892a-2b16-47fc-b08e-9380916c9a2d",
@@ -378,7 +417,7 @@
     "isStable": false,
     "metaTitle": "Abonnement Plume4K IPTV – Streaming 4K Stable et Rapide avec Chaînes Premium",
     "metaDescription": "Profitez de Plume4K IPTV avec chaînes internationales, sports en direct et VOD en 4K. Service rapide, stable et compatible Smart TV, Android et TV Box.",
-    "order": 6
+    "order": 7
   },
   {
     "id": "8816c02f-6d13-435f-975b-9db0e24906d7",
@@ -427,7 +466,7 @@
       "IPTV Android TV",
       "Atlas Pro TV Gratuit."
     ],
-    "order": 7
+    "order": 8
   },
   {
     "id": "0adad292-fc22-44cd-8583-be8f928e9e16",
@@ -466,45 +505,6 @@
     "isStable": false,
     "metaTitle": "PYTHON IPTV Officiel : Abonnement IPTV Premium 4K & VOD Illimitée",
     "metaDescription": "Découvrez PYTHON IPTV, le service le plus stable pour vos chaînes et VOD en 4K. Profitez de +12 000 chaînes sans coupure sur tous vos écrans. Serveurs haute performance et support 24/7. Abonnez-vous maintenant !",
-    "order": 8
-  },
-  {
-    "id": "2007a7bf-9d77-4a39-b6e5-3474ee98d58a",
-    "name": "Dream 4K Officiel : Abonnement Premium",
-    "categoryId": "27f2e1bf-bac4-4a90-9331-0e0e93edbd80",
-    "description": "Dream 4K est l'un des services IPTV les plus performants du marché, offrant une expérience de divertissement inégalée. Grâce à une infrastructure serveur robuste, il propose un accès fluide à une multitude de chaînes mondiales et une bibliothèque VOD exhaustive. Conçu spécifiquement pour les amateurs de haute définition, Dream 4K garantit une qualité d'image cristalline et une stabilité exemplaire pour tous vos programmes préférés.",
-    "imageUrl": "https://i.postimg.cc/x1PTTqGZ/dream4k-v2-2-2-smarters-screenshot.avif",
-    "features": [
-      "Qualité d'Image Exceptionnelle : Supporte la diffusion en 4K, Ultra HD et Full HD pour une clarté visuelle optimale.",
-      "Vaste Sélection de Chaînes : Accès à des milliers de chaînes internationales en direct (Sport, Cinéma, Divertissement, News).",
-      "Bibliothèque VOD Massive : Des milliers de films et séries récents mis à jour régulièrement pour ne jamais manquer de nouveautés.",
-      "Serveurs Hautes Performances : Technologie anti-buffering assurant une stabilité maximale, même lors des grands événements en direct.",
-      "Compatibilité Étendue : Fonctionne sur tous les supports (Smart TV, Android Box, Firestick, Smartphones, Tablettes et Mag).",
-      "Guide des Programmes (EPG) : Interface conviviale avec guide complet pour consulter les horaires de vos émissions."
-    ],
-    "keywords": [
-      "Dream 4K",
-      "Abonnement Dream 4K",
-      "IPTV 4K Stable",
-      "Meilleur IPTV France",
-      "Code Dream 4K",
-      "Serveur IPTV Rapide",
-      "VOD Films et Séries",
-      "IPTV sans coupure",
-      "Smart TV IPTV",
-      "Dream 4K Officiel"
-    ],
-    "variants": [
-      {
-        "id": "e7916bee-9688-4c52-8005-727a05ee9159",
-        "duration": "12 Mois ",
-        "price": "229 dh"
-      }
-    ],
-    "isBestSeller": false,
-    "isStable": true,
-    "metaTitle": "Dream 4K Officiel : Abonnement Premium Stable & VOD 4K",
-    "metaDescription": "Découvrez Dream 4K, l'abonnement IPTV leader pour vos chaînes et VOD en Ultra HD. Profitez d'une stabilité totale sans coupure sur tous vos appareils. Livraison instantanée et support 24/7. Abonnez-vous maintenant !",
     "order": 9
   },
   {
